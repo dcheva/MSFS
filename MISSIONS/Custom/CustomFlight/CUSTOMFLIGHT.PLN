@@ -3,75 +3,55 @@
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <FlightPlan.FlightPlan>
-        <Title>NZCH to NZQN</Title>
-        <FPType>IFR</FPType>
-        <RouteType>HighAlt</RouteType>
-        <CruisingAlt>20000.000</CruisingAlt>
-        <DepartureID>NZCH</DepartureID>
-        <DepartureLLA>S43° 28' 30.57",E172° 32' 52.81",+000123.00</DepartureLLA>
-        <DestinationID>NZQN</DestinationID>
-        <DestinationLLA>S45° 1' 10.59",E168° 44' 40.88",+001164.00</DestinationLLA>
-        <Descr>NZCH, NZQN</Descr>
-        <DeparturePosition>2</DeparturePosition>
-        <DepartureName>Christchurch Intl</DepartureName>
-        <DestinationName>Queenstown</DestinationName>
-        <AlternateName>AlternateName</AlternateName>
+        <Title>Friday Harbor to Roche Harbor</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1000.000</CruisingAlt>
+        <DepartureID>KFHR</DepartureID>
+        <DepartureLLA>N48° 31' 19.10",W123° 1' 27.70",+000098.50</DepartureLLA>
+        <DestinationID>WA09</DestinationID>
+        <DestinationLLA>N48° 36' 44.36",W123° 8' 18.67",+000100.00</DestinationLLA>
+        <Descr>Friday Harbor to Roche Harbor</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>Friday Harbor</DepartureName>
+        <DestinationName>Roche Harbor</DestinationName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="Christchurch Intl">
+        <ATCWaypoint id="KFHR">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>S43° 29' 22.00",E172° 32' 4.00",+000106.50</WorldPosition>
+            <WorldPosition>N48° 31' 19.10",W123° 1' 27.70",+000098.50</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>NZCH</ICAOIdent>
+                <ICAOIdent>KFHR</ICAOIdent>
             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECLIMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 29' 28.21",W123° 1' 19.20",+000713.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
         <ATCWaypoint id="TIMECRUIS">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>S44° 1' 11.31",E170° 41' 53.93",+020000.00</WorldPosition>
+            <WorldPosition>N48° 32' 8.95",W123° 3' 53.49",+001000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
-        <ATCWaypoint id="RY">
-            <ATCWaypointType>VOR</ATCWaypointType>
-            <WorldPosition>S44° 8' 6.37",E170° 16' 49.99",+020000.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-            <ICAO>
-                <ICAORegion>NZ</ICAORegion>
-                <ICAOIdent>RY</ICAOIdent>
-            </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="TIMEDSCNT">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>S44° 10' 53.48",E170° 12' 2.33",+020000.00</WorldPosition>
+            <WorldPosition>N48° 32' 44.90",W123° 4' 28.08",+001000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="QN">
-            <ATCWaypointType>VOR</ATCWaypointType>
-            <WorldPosition>S44° 59' 2.81",E168° 46' 57.53",+002050.00</WorldPosition>
+        <ATCWaypoint id="TIMEAPPROACH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 36' 34.00",W123° 13' 6.50",+000750.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            <ICAO>
-                <ICAORegion>NZ</ICAORegion>
-                <ICAOIdent>QN</ICAOIdent>
-            </ICAO>
         </ATCWaypoint>
-        <ATCWaypoint id="QN735">
-            <ATCWaypointType>Intersection</ATCWaypointType>
-            <WorldPosition>S45° 0' 30.52",E168° 47' 52.18",+001700.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-            <ICAO>
-                <ICAORegion>NZ</ICAORegion>
-                <ICAOIdent>QN735</ICAOIdent>
-                <ICAOAirport>NZQN</ICAOAirport>
-            </ICAO>
-        </ATCWaypoint>
-        <ATCWaypoint id="Queenstown">
+        <ATCWaypoint id="WA09">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>S45° 1' 10.56",E168° 44' 40.80",+001150.00</WorldPosition>
+            <WorldPosition>N48° 36' 44.36",W123° 8' 18.67",+000100.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>NZQN</ICAOIdent>
+                <ICAOIdent>WA09</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
     </FlightPlan.FlightPlan>

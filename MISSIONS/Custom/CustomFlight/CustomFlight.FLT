@@ -4,8 +4,8 @@ EventTriggersFileCount=1
 EventTriggersFile.0=EventTriggers
 
 [Main]
-Title=Free flight
-Description=Free flight
+Title=Friday Harbor to Roche Harbor
+Description=Friday Harbor to Roche Harbor
 AppVersion=10.0.61355
 FlightVersion=1
 MissionType=FreeFlight
@@ -60,6 +60,11 @@ ICAO=KFHR
 RunwayNumber=16
 RunwayDesignator=NONE
 
+[Arrival]
+ICAO=WA09
+RunwayNumber=7
+RunwayDesignator=NONE
+
 [Loading]
 ImageName0=LOADING_FREEFLIGHT
 Tips0=microsoft-aircraft-dc3,DC stands for Douglas Commercial. The first DC-1 was designed in 1933,TipCategory_Aircraft
@@ -88,16 +93,22 @@ UndocCoords=0, 0, 0, 0
 NumberofAgents=0
 
 [ATC_Aircraft.0]
-ActiveFlightPlan=False
+ActiveFlightPlan=True
 RequestedFlightPlan=False
 AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
-NumberofWaypoints=0
+Waypoint.0=, KFHR, , KFHR, A, N48° 31.32', W123° 1.46', +000098.50, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.1=, , , TIMECLIMB, U, N48° 29.47', W123° 1.32', +000713.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=, , , TIMECRUIS, U, N48° 32.15', W123° 3.89', +001000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=, , , TIMEDSCNT, U, N48° 32.75', W123° 4.47', +001000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMEAPPROACH, U, N48° 36.57', W123° 13.11', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=, WA09, , WA09, A, N48° 36.74', W123° 8.31', +000100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+NumberofWaypoints=6
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
-WaypointNext=0
+WaypointNext=1
 AltCleared=-1
 HdgAssigned=-1
-SquawkAssigned=1255346688
+SquawkAssigned=4608
 LandingSequence=LANDING_NONE
 DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
 ParkingRequest=PARKING_NAME_NONE
@@ -117,10 +128,28 @@ BVAirspaceTransitionReq=BV_TYPE_NONE
 TakeoffSequence=TAKEOFF_SEQUENCE_NONE
 LandingSequenceNumber=-1
 TaxiRouteCurrent=-1
-CruisingAltitude=-1
+CruisingAltitude=1500
 RequestedCruisingAltitude=-1
 ExpectedAltitude=-1
 AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+title=Friday Harbor to Roche Harbor
+description=Friday Harbor to Roche Harbor
+type=VFR
+routetype=0
+cruising_altitude=1000
+departure_id=KFHR, N48° 31.32', W123° 1.46', +000098.50
+departure_position=16
+destination_id=WA09, N48° 36.74', W123° 8.31', +000100.00
+departure_name=Friday Harbor
+destination_name=Roche Harbor
+waypoint.0=, KFHR, , KFHR, A, N48° 31.32', W123° 1.46', +000098.50, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.1=, , , TIMECLIMB, U, N48° 29.47', W123° 1.32', +000713.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , TIMECRUIS, U, N48° 32.15', W123° 3.89', +001000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, , , TIMEDSCNT, U, N48° 32.75', W123° 4.47', +001000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , TIMEAPPROACH, U, N48° 36.57', W123° 13.11', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, WA09, , WA09, A, N48° 36.74', W123° 8.31', +000100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -128,13 +157,29 @@ NumberofAircraft=1
 [ATC_MessageSystem]
 FrequencyNodes=0
 
+[GPS_Engine]
+Filename=C:\USERS\DMYTRO\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
+position=N0° 0.02', E0° 0.84', +000009.70
+Time=-1
+TimeWP=67005
+ArriveTime=489
+CountWP=6
+NextWP=1
+WpInfo0=69, 0, 30, 0, 0, 402.0, 0.0, 0.0
+WpInfo1=81, 0, 217, 0, 0, 0.0, 3.2, 0.0
+WpInfo2=86, 0, 304, 0, 0, 0.0, 5.1, 0.0
+WpInfo3=86, 0, 304, 0, 0, 0.0, 1.1, 0.0
+WpInfo4=182, 0, 228, 0, 0, 0.0, 5.3, 0.0
+WpInfo5=101, 0, 30, 0, 0, 0.0, 4.4, 0.0
+CountFP=0
+
 [DateTimeSeason]
 Season=Summer
 Year=2023
 Day=254
-Hours=17
-Minutes=59
-Seconds=17.499994277954101562
+Hours=18
+Minutes=36
+Seconds=45.500370025634765625
 UseZuluTime=False
 
 [SimplifiedSim.0]
@@ -473,4 +518,4 @@ NosewheelMaxSteering=-1
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=1996.9581425940955342
+SimTime=826.01579126076421744

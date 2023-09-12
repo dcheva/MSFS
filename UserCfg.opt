@@ -3,9 +3,9 @@ Version 66
 	Adapter "NVIDIA GeForce GTX 1660"
 	Monitor 0
 	Windowed 1
-	FullscreenBorderless 1
+	FullscreenBorderless 0
 	WindowActive 0
-	Resolution 1858 1057
+	Resolution 1440 810
 	FullScreenResolution 1920 1080
 	PosX 0
 	PosY 23
@@ -32,6 +32,8 @@ Version 66
 	Raytracing 0
 	PreferD3D12 0
 	IntelMessageBoxDisplayed 0
+	CurrentGPUDriverVersion 537.13.0
+	DoNotShowGpuDriverRequirementPopup 0
 }
 {Graphics
 	Version 1.1.0
