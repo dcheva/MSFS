@@ -37,92 +37,92 @@ Version 66
 }
 {Graphics
 	Version 1.1.0
-	Preset Medium
+	Preset High
 	{Texture
-		MaxAnisotropy 4
-		Quality 2
+		MaxAnisotropy 8
+		Quality 1
 	}
 	{SuperSampling
-		SuperSampling 1
+		SuperSampling 2
 	}
 	{Terrain
-		LoDFactor 0.500000
+		LoDFactor 1.000000
 	}
 	{OffscreenTerrainPreCaching
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{ObjectsLoD
-		LoDFactor 0.500000
+		LoDFactor 1.000000
 	}
 	{Shadows
 		MaxSliceCount 4
-		Size 1024
+		Size 1536
 		DLightContributionCullingThresholdS0 0.100000
 		DLightContributionCullingThresholdS1 0.100000
 		DLightContributionCullingThresholdS2 0.100000
 		DLightContributionCullingThresholdS3 0.100000
-		OmniContributionCullingThreshold 0.030000
+		OmniContributionCullingThreshold 0.020000
 	}
 	{HeightFieldShadows
 		Enabled 1
-		Size 256
+		Size 512
 	}
 	{SSRaytracedShadows
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{Water
-		FFTSize 256
+		FFTSize 512
 	}
 	{VolumetricClouds
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{VolumetricLights
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{ReflectionProbe
-		Size 128
+		Size 192
 	}
 	{SSR
 		Enabled 1
 		HalfRes 0
-		Quality 1
+		Quality 2
 	}
 	{WindShield
-		Quality 1
+		Quality 2
 	}
 	{SSAO
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{Bloom
 		Enabled 1
 	}
 	{DOF
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{MotionBlur
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{Buildings
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{VegetationLarge
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{VegetationSmall
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{TextureSynthesis
-		Quality 1
+		Quality 2
 	}
 	{PostProcess
 		Enabled 1
@@ -140,7 +140,7 @@ Version 66
 	}
 	{VectorDataTessellation
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 }
 {GraphicsVR
