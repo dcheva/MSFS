@@ -1,0 +1,52 @@
+Wed Jun  7 16:06:17 2023  [ALWAYS]: <=============================== START OF PROGRAM ===============================>
+Wed Jun  7 16:06:17 2023  [ALWAYS]: **** WASM version is 1.0.2 ****
+Wed Jun  7 16:06:17 2023    [INFO]: Ini file loaded from add-on package
+Wed Jun  7 16:06:17 2023    [INFO]: No ini file found in persistant storage at '\work\FSUIPC_WASM.ini'
+Wed Jun  7 16:06:17 2023  [ALWAYS]: lvarUpdateFrequency = 4
+Wed Jun  7 16:06:17 2023  [ALWAYS]: lvarScanDelay = 5
+Wed Jun  7 16:06:17 2023  [ALWAYS]: lvarScanFrequency = -2
+Wed Jun  7 16:06:17 2023  [ALWAYS]: useAirLocForHvars = 0
+Wed Jun  7 16:06:17 2023  [ALWAYS]: Maximum number of lvars/hvars per Client Data Area is 146
+Wed Jun  7 16:06:17 2023    [INFO]: Config Client Data Area mapped to ID 1
+Wed Jun  7 16:06:17 2023    [INFO]: Data Definition 1 added for Config Client Data Area definition
+Wed Jun  7 16:06:17 2023    [INFO]: Config Client Data Area created.
+Wed Jun  7 16:06:17 2023    [INFO]: Lvar Value Client Data Area mapped to ID 2
+Wed Jun  7 16:06:17 2023    [INFO]: Data Definition 2 added for Lvar Set Request Client Data Area definition
+Wed Jun  7 16:06:17 2023    [INFO]: Lvar Value Client Data Area created.
+Wed Jun  7 16:06:17 2023    [INFO]: Calculator Code Client Data Area mapped to ID 3
+Wed Jun  7 16:06:17 2023    [INFO]: Data Definition 3 added for Lvar Set Request Client Data Area definition
+Wed Jun  7 16:06:17 2023    [INFO]: Exec Calculator Code Client Data Area created.
+Wed Jun  7 16:06:57 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Wed Jun  7 16:06:57 2023    [INFO]: Flight loaded: 'flights\other\MainMenu.FLT'
+Wed Jun  7 16:10:47 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Community\asobo-aircraft-longitude\SimObjects\Airplanes\Asobo_Longitude\aircraft.CFG'
+Wed Jun  7 16:10:48 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Community\asobo-aircraft-longitude\SimObjects\Airplanes\Asobo_Longitude\aircraft.CFG'
+Wed Jun  7 16:10:54 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Community\asobo-aircraft-longitude\SimObjects\Airplanes\Asobo_Longitude\aircraft.CFG'
+Wed Jun  7 16:10:54 2023    [INFO]: Flight loaded: 'C:\Users\Dmytro\AppData\Roaming\Microsoft Flight Simulator\MISSIONS\Custom\CustomFlight\CustomFlight.FLT'
+Wed Jun  7 16:12:06 2023    [INFO]: 0 hvars loaded for aircraft 'Cessna Longitude Asobo'
+Wed Jun  7 16:12:06 2023    [INFO]: 430 LVARS found, created 3 Client Data Areas
+Wed Jun  7 16:12:06 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 0
+Wed Jun  7 16:12:06 2023    [INFO]: Lvar values CDA with id=4 mapped to name FSUIPC_lvalues0 [requestId=42]
+Wed Jun  7 16:12:06 2023    [INFO]: Lvar values Client data definition 4 added [requestID=43]
+Wed Jun  7 16:12:06 2023    [INFO]: Lvar values CDA created with id=4, (size=8192 for 1024 values), mapped to name FSUIPC_lvalues0 [requestId=44]
+Wed Jun  7 16:12:06 2023    [INFO]: 430 lvars loaded for aircraft 'Cessna Longitude Asobo'
+Wed Jun  7 16:12:16 2023    [INFO]: New lvars detected: 448 lvars detected (was 430): reloading...
+Wed Jun  7 16:12:16 2023    [INFO]: 448 LVARS found, created 4 Client Data Areas
+Wed Jun  7 16:12:16 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Wed Jun  7 16:12:23 2023    [INFO]: New lvars detected: 464 lvars detected (was 448): reloading...
+Wed Jun  7 16:12:23 2023    [INFO]: 464 LVARS found, created 4 Client Data Areas
+Wed Jun  7 16:12:23 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Wed Jun  7 16:12:25 2023    [INFO]: New lvars detected: 467 lvars detected (was 464): reloading...
+Wed Jun  7 16:12:25 2023    [INFO]: 467 LVARS found, created 4 Client Data Areas
+Wed Jun  7 16:12:25 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Wed Jun  7 16:14:18 2023    [INFO]: New lvars detected: 472 lvars detected (was 467): reloading...
+Wed Jun  7 16:14:18 2023    [INFO]: 472 LVARS found, created 4 Client Data Areas
+Wed Jun  7 16:14:18 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Wed Jun  7 16:56:23 2023    [INFO]: New lvars detected: 473 lvars detected (was 472): reloading...
+Wed Jun  7 16:56:23 2023    [INFO]: 473 LVARS found, created 4 Client Data Areas
+Wed Jun  7 16:56:23 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Wed Jun  7 16:58:45 2023   [ERROR]: Error clearing data definition with id=14
+Wed Jun  7 16:58:45 2023   [ERROR]: Error clearing data definition with id=15
+Wed Jun  7 16:58:45 2023   [ERROR]: Error clearing data definition with id=17
+Wed Jun  7 16:58:45 2023   [ERROR]: Error clearing data definition with id=22
+Wed Jun  7 16:58:45 2023   [ERROR]: Error clearing config data definition
+Wed Jun  7 16:58:45 2023  [ALWAYS]: <=============================== END OF PROGRAM ===============================>

@@ -1,0 +1,68 @@
+Sun Jun  4 17:38:05 2023  [ALWAYS]: <=============================== START OF PROGRAM ===============================>
+Sun Jun  4 17:38:05 2023  [ALWAYS]: **** WASM version is 1.0.2 ****
+Sun Jun  4 17:38:05 2023    [INFO]: Ini file loaded from add-on package
+Sun Jun  4 17:38:05 2023    [INFO]: No ini file found in persistant storage at '\work\FSUIPC_WASM.ini'
+Sun Jun  4 17:38:05 2023  [ALWAYS]: lvarUpdateFrequency = 4
+Sun Jun  4 17:38:05 2023  [ALWAYS]: lvarScanDelay = 5
+Sun Jun  4 17:38:05 2023  [ALWAYS]: lvarScanFrequency = -2
+Sun Jun  4 17:38:05 2023  [ALWAYS]: useAirLocForHvars = 0
+Sun Jun  4 17:38:05 2023  [ALWAYS]: Maximum number of lvars/hvars per Client Data Area is 146
+Sun Jun  4 17:38:05 2023    [INFO]: Config Client Data Area mapped to ID 1
+Sun Jun  4 17:38:05 2023    [INFO]: Data Definition 1 added for Config Client Data Area definition
+Sun Jun  4 17:38:05 2023    [INFO]: Config Client Data Area created.
+Sun Jun  4 17:38:05 2023    [INFO]: Lvar Value Client Data Area mapped to ID 2
+Sun Jun  4 17:38:05 2023    [INFO]: Data Definition 2 added for Lvar Set Request Client Data Area definition
+Sun Jun  4 17:38:05 2023    [INFO]: Lvar Value Client Data Area created.
+Sun Jun  4 17:38:05 2023    [INFO]: Calculator Code Client Data Area mapped to ID 3
+Sun Jun  4 17:38:05 2023    [INFO]: Data Definition 3 added for Lvar Set Request Client Data Area definition
+Sun Jun  4 17:38:05 2023    [INFO]: Exec Calculator Code Client Data Area created.
+Sun Jun  4 17:38:41 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Community\justflight-aircraft-146\SimObjects\Airplanes\JF_146_200\aircraft.CFG'
+Sun Jun  4 17:38:41 2023    [INFO]: Flight loaded: 'flights\other\MainMenu.FLT'
+Sun Jun  4 17:40:11 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Sun Jun  4 17:40:11 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Sun Jun  4 17:40:16 2023    [INFO]: Aircraft loaded: 'C:\Games\Microsoft Flight Simulator\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Sun Jun  4 17:40:16 2023    [INFO]: Flight loaded: 'C:\Users\Dmytro\AppData\Roaming\Microsoft Flight Simulator\MISSIONS\Custom\CustomFlight\CustomFlight.FLT'
+Sun Jun  4 17:41:10 2023    [INFO]: 0 hvars loaded for aircraft 'Douglas DC-3 Bare Metal Emerald'
+Sun Jun  4 17:41:10 2023    [INFO]: 2390 LVARS found, created 17 Client Data Areas
+Sun Jun  4 17:41:10 2023    [INFO]: Need 3 CDAs to hold lvar values, currently have 0
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values CDA with id=4 mapped to name FSUIPC_lvalues0 [requestId=70]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values Client data definition 4 added [requestID=71]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values CDA created with id=4, (size=8192 for 1024 values), mapped to name FSUIPC_lvalues0 [requestId=72]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values CDA with id=5 mapped to name FSUIPC_lvalues1 [requestId=73]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values Client data definition 5 added [requestID=74]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values CDA created with id=5, (size=8192 for 1024 values), mapped to name FSUIPC_lvalues1 [requestId=75]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values CDA with id=6 mapped to name FSUIPC_lvalues2 [requestId=76]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values Client data definition 6 added [requestID=77]
+Sun Jun  4 17:41:10 2023    [INFO]: Lvar values CDA created with id=6, (size=8192 for 1024 values), mapped to name FSUIPC_lvalues2 [requestId=78]
+Sun Jun  4 17:41:10 2023    [INFO]: 2390 lvars loaded for aircraft 'Douglas DC-3 Bare Metal Emerald'
+Sun Jun  4 17:41:17 2023    [INFO]: New lvars detected: 2406 lvars detected (was 2390): reloading...
+Sun Jun  4 17:41:17 2023    [INFO]: 2406 LVARS found, created 17 Client Data Areas
+Sun Jun  4 17:41:17 2023    [INFO]: Need 3 CDAs to hold lvar values, currently have 3
+Sun Jun  4 17:41:19 2023    [INFO]: New lvars detected: 2409 lvars detected (was 2406): reloading...
+Sun Jun  4 17:41:19 2023    [INFO]: 2409 LVARS found, created 17 Client Data Areas
+Sun Jun  4 17:41:19 2023    [INFO]: Need 3 CDAs to hold lvar values, currently have 3
+Sun Jun  4 17:41:57 2023    [INFO]: New lvars detected: 2414 lvars detected (was 2409): reloading...
+Sun Jun  4 17:41:57 2023    [INFO]: 2414 LVARS found, created 17 Client Data Areas
+Sun Jun  4 17:41:57 2023    [INFO]: Need 3 CDAs to hold lvar values, currently have 3
+Sun Jun  4 17:41:59 2023    [INFO]: New lvars detected: 2415 lvars detected (was 2414): reloading...
+Sun Jun  4 17:41:59 2023    [INFO]: 2415 LVARS found, created 17 Client Data Areas
+Sun Jun  4 17:41:59 2023    [INFO]: Need 3 CDAs to hold lvar values, currently have 3
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=14
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=15
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=16
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=17
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=18
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=19
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=20
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=21
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=22
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=23
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=24
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=25
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=26
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=27
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=28
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=29
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing data definition with id=34
+Sun Jun  4 18:27:44 2023   [ERROR]: Error clearing config data definition
+Sun Jun  4 18:27:44 2023  [ALWAYS]: <=============================== END OF PROGRAM ===============================>
