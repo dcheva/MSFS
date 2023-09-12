@@ -3,12 +3,12 @@ Version 66
 	Adapter "NVIDIA GeForce GTX 1660"
 	Monitor 0
 	Windowed 1
-	FullscreenBorderless 0
+	FullscreenBorderless 1
 	WindowActive 0
 	Resolution 1440 810
 	FullScreenResolution 1920 1080
-	PosX 0
-	PosY 23
+	PosX 215
+	PosY 139
 	AntiAliasing TAA
 	DLSSMode AUTO
 	DLSSG 0
@@ -37,92 +37,92 @@ Version 66
 }
 {Graphics
 	Version 1.1.0
-	Preset High
+	Preset Medium
 	{Texture
-		MaxAnisotropy 8
-		Quality 1
+		MaxAnisotropy 4
+		Quality 2
 	}
 	{SuperSampling
-		SuperSampling 2
+		SuperSampling 1
 	}
 	{Terrain
-		LoDFactor 1.000000
+		LoDFactor 0.500000
 	}
 	{OffscreenTerrainPreCaching
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{ObjectsLoD
-		LoDFactor 1.000000
+		LoDFactor 0.500000
 	}
 	{Shadows
 		MaxSliceCount 4
-		Size 1536
+		Size 1024
 		DLightContributionCullingThresholdS0 0.100000
 		DLightContributionCullingThresholdS1 0.100000
 		DLightContributionCullingThresholdS2 0.100000
 		DLightContributionCullingThresholdS3 0.100000
-		OmniContributionCullingThreshold 0.020000
+		OmniContributionCullingThreshold 0.030000
 	}
 	{HeightFieldShadows
 		Enabled 1
-		Size 512
+		Size 256
 	}
 	{SSRaytracedShadows
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{Water
-		FFTSize 512
+		FFTSize 256
 	}
 	{VolumetricClouds
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{VolumetricLights
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{ReflectionProbe
-		Size 192
+		Size 128
 	}
 	{SSR
 		Enabled 1
 		HalfRes 0
-		Quality 2
+		Quality 1
 	}
 	{WindShield
-		Quality 2
+		Quality 1
 	}
 	{SSAO
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{Bloom
 		Enabled 1
 	}
 	{DOF
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{MotionBlur
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{Buildings
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{VegetationLarge
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{VegetationSmall
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{TextureSynthesis
-		Quality 2
+		Quality 1
 	}
 	{PostProcess
 		Enabled 1
@@ -140,7 +140,7 @@ Version 66
 	}
 	{VectorDataTessellation
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 }
 {GraphicsVR
