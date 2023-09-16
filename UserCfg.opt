@@ -14,7 +14,7 @@ Version 66
 	DLSSG 0
 	Reflex OFF
 	FSRMode BALANCED
-	PrimaryScaling 1.000000
+	PrimaryScaling 0.750000
 	SecondaryScaling 1.000000
 	SharpenAmount 0.500000
 	ReprojectionMode 0
@@ -43,14 +43,14 @@ Version 66
 		Quality 1
 	}
 	{SuperSampling
-		SuperSampling 1
+		SuperSampling 2
 	}
 	{Terrain
 		LoDFactor 1.000000
 	}
 	{OffscreenTerrainPreCaching
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{ObjectsLoD
 		LoDFactor 1.000000
@@ -66,14 +66,14 @@ Version 66
 	}
 	{HeightFieldShadows
 		Enabled 1
-		Size 256
+		Size 512
 	}
 	{SSRaytracedShadows
 		Enabled 1
 		Quality 1
 	}
 	{Water
-		FFTSize 256
+		FFTSize 512
 	}
 	{VolumetricClouds
 		Enabled 1
@@ -111,18 +111,18 @@ Version 66
 	}
 	{Buildings
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{VegetationLarge
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{VegetationSmall
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{TextureSynthesis
-		Quality 1
+		Quality 2
 	}
 	{PostProcess
 		Enabled 1
@@ -140,7 +140,7 @@ Version 66
 	}
 	{VectorDataTessellation
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 }
 {GraphicsVR

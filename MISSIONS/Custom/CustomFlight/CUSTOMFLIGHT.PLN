@@ -3,55 +3,55 @@
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <FlightPlan.FlightPlan>
-        <Title>Friday Harbor to Roche Harbor</Title>
+        <Title>London City to London City</Title>
         <FPType>VFR</FPType>
-        <CruisingAlt>1000.000</CruisingAlt>
-        <DepartureID>KFHR</DepartureID>
-        <DepartureLLA>N48° 31' 19.10",W123° 1' 27.70",+000098.50</DepartureLLA>
-        <DestinationID>WA09</DestinationID>
-        <DestinationLLA>N48° 36' 44.36",W123° 8' 18.67",+000100.00</DestinationLLA>
-        <Descr>Friday Harbor to Roche Harbor</Descr>
-        <DeparturePosition>16</DeparturePosition>
-        <DepartureName>Friday Harbor</DepartureName>
-        <DestinationName>Roche Harbor</DestinationName>
+        <CruisingAlt>1200.000</CruisingAlt>
+        <DepartureID>EGLC</DepartureID>
+        <DepartureLLA>N51° 30' 18.06",E0° 3' 0.59",+000000.00</DepartureLLA>
+        <DestinationID>EGLC</DestinationID>
+        <DestinationLLA>N51° 30' 18.06",E0° 3' 0.59",+000000.00</DestinationLLA>
+        <Descr>London City to London City</Descr>
+        <DeparturePosition>27</DeparturePosition>
+        <DepartureName>London City</DepartureName>
+        <DestinationName>London City</DestinationName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="KFHR">
+        <ATCWaypoint id="EGLC">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N48° 31' 19.10",W123° 1' 27.70",+000098.50</WorldPosition>
+            <WorldPosition>N51° 30' 18.06",E0° 3' 0.59",+000000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>KFHR</ICAOIdent>
+                <ICAOIdent>EGLC</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="TIMECLIMB">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N48° 29' 28.21",W123° 1' 19.20",+000713.00</WorldPosition>
+            <WorldPosition>N51° 30' 26.38",W0° 0' 46.19",+000623.52</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
         <ATCWaypoint id="TIMECRUIS">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N48° 32' 8.95",W123° 3' 53.49",+001000.00</WorldPosition>
+            <WorldPosition>N51° 29' 46.39",W0° 10' 8.85",+001200.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Palace of Westminster">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N51° 29' 57.85",W0° 7' 28.88",+001200.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
         <ATCWaypoint id="TIMEDSCNT">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N48° 32' 44.90",W123° 4' 28.08",+001000.00</WorldPosition>
+            <WorldPosition>N51° 29' 59.93",W0° 6' 26.05",+001200.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="TIMEAPPROACH">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N48° 36' 34.00",W123° 13' 6.50",+000750.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
-        <ATCWaypoint id="WA09">
+        <ATCWaypoint id="EGLC">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N48° 36' 44.36",W123° 8' 18.67",+000100.00</WorldPosition>
+            <WorldPosition>N51° 30' 18.06",E0° 3' 0.59",+000000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>WA09</ICAOIdent>
+                <ICAOIdent>EGLC</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
     </FlightPlan.FlightPlan>

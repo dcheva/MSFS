@@ -4,8 +4,8 @@ EventTriggersFileCount=1
 EventTriggersFile.0=EventTriggers
 
 [Main]
-Title=Free flight
-Description=Free flight
+Title=London City to London City
+Description=London City to London City
 AppVersion=10.0.61355
 FlightVersion=1
 MissionType=FreeFlight
@@ -25,8 +25,8 @@ AxisIndicator=Off
 
 [Sim.0]
 Sim=Black Square 208B Grand Caravan Default Green
-Pilot=
-Copilot=
+Pilot=Pilot_Male_Uniform
+Copilot=Pilot_Female_Uniform
 TailNumber=DCH300
 AirlineCallSign=DCH300
 FlightNumber=
@@ -57,7 +57,12 @@ DebugPublicAirflowDisplay=False
 
 [Departure]
 ICAO=EGLC
-RunwayNumber=9
+RunwayNumber=27
+RunwayDesignator=NONE
+
+[Arrival]
+ICAO=EGLC
+RunwayNumber=27
 RunwayDesignator=NONE
 
 [Loading]
@@ -86,16 +91,22 @@ UndocCoords=0, 0, 0, 0
 NumberofAgents=0
 
 [ATC_Aircraft.0]
-ActiveFlightPlan=False
+ActiveFlightPlan=True
 RequestedFlightPlan=False
 AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
-NumberofWaypoints=0
+Waypoint.0=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.1=, , , TIMECLIMB, U, N51° 30.44', W0° 0.77', +000623.52, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=, , , TIMECRUIS, U, N51° 29.77', W0° 10.15', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=, #, , Palace of Westminster, U, N51° 29.96', W0° 7.48', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMEDSCNT, U, N51° 30.00', W0° 6.43', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+NumberofWaypoints=6
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
-WaypointNext=0
+WaypointNext=1
 AltCleared=-1
 HdgAssigned=-1
-SquawkAssigned=-1778970112
+SquawkAssigned=1255346688
 LandingSequence=LANDING_NONE
 DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
 ParkingRequest=PARKING_NAME_NONE
@@ -115,10 +126,28 @@ BVAirspaceTransitionReq=BV_TYPE_NONE
 TakeoffSequence=TAKEOFF_SEQUENCE_NONE
 LandingSequenceNumber=-1
 TaxiRouteCurrent=-1
-CruisingAltitude=-1
+CruisingAltitude=1500
 RequestedCruisingAltitude=-1
 ExpectedAltitude=-1
 AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+title=London City to London City
+description=London City to London City
+type=VFR
+routetype=0
+cruising_altitude=1200
+departure_id=EGLC, N51° 30.30', E0° 3.01', +000000.00
+departure_position=27
+destination_id=EGLC, N51° 30.30', E0° 3.01', +000000.00
+departure_name=London City
+destination_name=London City
+waypoint.0=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.1=, , , TIMECLIMB, U, N51° 30.44', W0° 0.77', +000623.52, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , TIMECRUIS, U, N51° 29.77', W0° 10.15', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, #, , Palace of Westminster, U, N51° 29.96', W0° 7.48', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , TIMEDSCNT, U, N51° 30.00', W0° 6.43', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -126,25 +155,41 @@ NumberofAircraft=1
 [ATC_MessageSystem]
 FrequencyNodes=0
 
+[GPS_Engine]
+Filename=C:\USERS\DMYTRO\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
+position=N0° 0.02', E0° 0.84', +000008.01
+Time=-1
+TimeWP=33981
+ArriveTime=417
+CountWP=6
+NextWP=1
+WpInfo0=69, 0, 0, 0, 0, 165.0, 0.0, 0.0
+WpInfo1=194, 0, 190, 0, 0, 0.0, 0.4, 0.0
+WpInfo2=194, 0, 365, 0, 0, 0.0, 1.1, 0.0
+WpInfo3=190, 0, 365, 0, 0, 0.0, 0.3, 0.0
+WpInfo4=190, 0, 365, 0, 0, 0.0, 0.1, 0.0
+WpInfo5=94, 0, 0, 0, 0, 0.0, 2.3, 0.0
+CountFP=0
+
 [DateTimeSeason]
-Season=Spring
+Season=Summer
 Year=2023
 Day=259
-Hours=7
-Minutes=35
-Seconds=1.1670026779174804688
+Hours=9
+Minutes=26
+Seconds=21.2221832275390625
 UseZuluTime=False
 
 [SimplifiedSim.0]
 Mode=None
 
 [SimVars.0]
-Latitude=N51° 30' 18.10"
-Longitude=E0° 2' 40.01"
+Latitude=N51° 30' 15.66"
+Longitude=E0° 3' 57.14"
 Altitude=+000018.00
 Pitch=0
 Bank=0
-Heading=-15.264173392206416224
+Heading=1.6822870261967182159
 PVelBodyAxis=0
 BVelBodyAxis=0
 HVelBodyAxis=0
@@ -236,8 +281,8 @@ HydraulicPressure=0
 TankSelector=All
 TankSelector1=All
 Center=0
-LeftMain=99.99993133544921875
-RightMain=99.99993133544921875
+LeftMain=49.999996185302734375
+RightMain=49.999996185302734375
 LeftAux=0
 RightAux=0
 LeftTip=0
@@ -454,7 +499,7 @@ SpeedSlotIndex=1
 VSSlotIndex=1
 
 [Payload.0]
-PayloadList=   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0
+PayloadList= 180.0, 180.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0
 
 [Controls.0]
 SpoilersHandle=000.00
@@ -489,4 +534,4 @@ NosewheelMaxSteering=-1
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=735.2502622396091283
+SimTime=748.57530963200724727
