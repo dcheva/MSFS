@@ -14,9 +14,9 @@ Version 66
 	DLSSG 0
 	Reflex OFF
 	FSRMode BALANCED
-	PrimaryScaling 0.850000
+	PrimaryScaling 1.000000
 	SecondaryScaling 1.000000
-	SharpenAmount 1.000000
+	SharpenAmount 0.500000
 	ReprojectionMode 0
 	WorldScalePercentVR 100
 	AntiAliasingVR TAA
@@ -30,50 +30,50 @@ Version 66
 	VSync 1
 	HDR10 0
 	Raytracing 0
-	PreferD3D12 0
+	PreferD3D12 1
 	IntelMessageBoxDisplayed 0
-	CurrentGPUDriverVersion 537.13.0
+	CurrentGPUDriverVersion 537.34.0
 	DoNotShowGpuDriverRequirementPopup 0
 }
 {Graphics
 	Version 1.1.0
-	Preset High
+	Preset Custom
 	{Texture
-		MaxAnisotropy 8
+		MaxAnisotropy 4
 		Quality 1
 	}
 	{SuperSampling
-		SuperSampling 2
+		SuperSampling 1
 	}
 	{Terrain
 		LoDFactor 1.000000
 	}
 	{OffscreenTerrainPreCaching
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{ObjectsLoD
 		LoDFactor 1.000000
 	}
 	{Shadows
 		MaxSliceCount 4
-		Size 1536
+		Size 1024
 		DLightContributionCullingThresholdS0 0.100000
 		DLightContributionCullingThresholdS1 0.100000
 		DLightContributionCullingThresholdS2 0.100000
 		DLightContributionCullingThresholdS3 0.100000
-		OmniContributionCullingThreshold 0.020000
+		OmniContributionCullingThreshold 0.030000
 	}
 	{HeightFieldShadows
 		Enabled 1
-		Size 512
+		Size 256
 	}
 	{SSRaytracedShadows
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{Water
-		FFTSize 512
+		FFTSize 256
 	}
 	{VolumetricClouds
 		Enabled 1
@@ -81,48 +81,48 @@ Version 66
 	}
 	{VolumetricLights
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{ReflectionProbe
-		Size 192
+		Size 128
 	}
 	{SSR
 		Enabled 1
 		HalfRes 0
-		Quality 2
+		Quality 1
 	}
 	{WindShield
-		Quality 2
+		Quality 1
 	}
 	{SSAO
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{Bloom
 		Enabled 1
 	}
 	{DOF
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{MotionBlur
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{Buildings
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{VegetationLarge
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{VegetationSmall
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 	{TextureSynthesis
-		Quality 2
+		Quality 1
 	}
 	{PostProcess
 		Enabled 1
@@ -140,7 +140,7 @@ Version 66
 	}
 	{VectorDataTessellation
 		Enabled 1
-		Quality 2
+		Quality 1
 	}
 }
 {GraphicsVR
