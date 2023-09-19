@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2020-12-03T18:37:01</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.4.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>SR22 Asobo</Name>
+      <AircraftType>SR22</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>1200.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>80.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>1.204</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>486.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>80.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>100.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>103.644</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>140.042</SpeedKtsTAS>
+        <VertSpeedFtPerMin>591.326</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>73.476</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>150.578</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>87.383</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>132.137</SpeedKtsTAS>
+        <VertSpeedFtPerMin>334.291</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

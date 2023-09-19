@@ -5,10 +5,10 @@ Version 66
 	Windowed 1
 	FullscreenBorderless 1
 	WindowActive 0
-	Resolution 1440 810
+	Resolution 1858 1057
 	FullScreenResolution 1920 1080
-	PosX 215
-	PosY 139
+	PosX 0
+	PosY 23
 	AntiAliasing TAA
 	DLSSMode AUTO
 	DLSSG 0

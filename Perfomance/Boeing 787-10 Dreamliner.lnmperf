@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2021-10-31T20:34:11+01:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.7.6.develop</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Boeing 787-10 reamliner</Name>
+      <AircraftType>B 787</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>1000.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>6000.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>2990.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>1680.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>700000.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>30000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>350.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>70000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>300.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1550.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>55000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>490.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>20000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>490.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2050.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

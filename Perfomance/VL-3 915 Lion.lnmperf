@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2020-10-23T17:19:23</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.2.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>VL-3 915 Lion</Name>
+      <AircraftType>VL3</AircraftType>
+      <Description>This performance file is for the
+
+JMB Aircraft VL-3 915 mod
+
+https://github.com/r9r-dev/fs2020-vl3-rotax915</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>10.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>30.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>600.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>30.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>2.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>222.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>30.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>100.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>53.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>116.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1532.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>42.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>156.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>11.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>99.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>572.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2020-10-27T08:20:10</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.2.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Asobo XCub</Name>
+      <AircraftType>CC19</AircraftType>
+      <Description>Samples recorded and merged based on flights at FL35 in various weather conditions.
+Weigt at start of the flights:
+
+147 lbs Fuel
+200 lbs Pilot
+160 lbs Baggage
+Total Weight: 1.723 lbs
+
+Using the XCub Performance+ 180HP Mod v1.7.2 by Bush League Legends:
+https://www.bushleaguelegends.com/addons/msfs/msfs-mods
+</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>0.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>30.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>0.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>294.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>54.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>115.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>62.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>93.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>894.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>49.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>114.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>13.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>83.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>693.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

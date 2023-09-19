@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-06-03T16:51:25-04:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.18</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>HJET</Name>
+      <AircraftType>HA420</AircraftType>
+      <Description>Climb: 210 KIAS / Mach 0.57
+
+Normal Descent: 2,000 fpm / flight idle
+
+High Speed Descent: 3,000 fpm / 270 KTAS or Mach 0.72
+
+Approach Speed: 120 KIAS
+
+HJet created by Marwan Gharib / Published &amp; Distributed by FlightFX</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>3000.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>503.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>54.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>2884.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>549.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>360.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>1500.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>210.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1800.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>800.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>384.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>300.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>285.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2000.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

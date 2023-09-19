@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2021-10-17T08:56:17-07:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.16</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Boeing 747-8</Name>
+      <AircraftType>B747</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>110.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>7000.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>1050.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>460.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>426170.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>10000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>280.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>40300.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>260.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1250.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>28030.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>490.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>22000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>360.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1500.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

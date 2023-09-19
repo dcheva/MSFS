@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2023-05-10T04:50:45+03:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Cessna Longitude Asobo</Name>
+      <AircraftType>C700</AircraftType>
+      <Simulator></Simulator>
+      <Description>@70% 20k 380kts 2000pph
+@75% 20k 400kts 2150pph
+@80% 33k 420kts 1600pph(240gph)
+Climb 20k @90% 290kts 4000fpm 470gph
+Climb 30k @90% 250kts 2400fpm 270 gph
+@80% FL330
+True Airspeed: 439 kts
+Fuel Flow: 1 697 pph, 253 gph
+</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>0.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>750.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>0.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>14551.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>1001.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>290.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>2200.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>210.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>3000.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>1700.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>440.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>1001.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>380.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2500.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

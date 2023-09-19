@@ -1,0 +1,28 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.4.4 (revision b96521a) on 2020 02 22T15:11:01
+ProgramVersion=2.4.4
+FormatVersion=2.4.0
+Name=Beech Baron 58 Paint2
+AircraftType=BE58
+Description="1164 lbs brandstof capaciteit\n\nhttps://www.globalair.com/aircraft-for-sale/Specifications?specid=9"
+FuelAsVolume=false
+JetFuel=false
+
+[Perf]
+TaxiFuelLbsGal=2
+ReserveFuelLbsGal=40
+ExtraFuelLbsGal=100
+ContingencyFuelPercent=5
+ClimbVertSpeedFtPerMin=1373
+ClimbSpeedKtsTAS=130
+ClimbFuelFlowLbsGalPerHour=239
+CruiseSpeedKtsTAS=185
+CruiseFuelFlowLbsGalPerHour=205
+DescentSpeedKtsTAS=185
+DescentVertSpeedFtPerMin=995
+DescentFuelFlowLbsGalPerHour=143
+UsableFuel=1164
+AlternateSpeed=170
+AlternateFuelFlow=200
+MinRunwayLength=0
+RunwayType=Soft

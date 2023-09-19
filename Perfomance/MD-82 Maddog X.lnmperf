@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-05-02T19:20:13+02:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.18</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>MD-82 Maddog X</Name>
+      <AircraftType>MD82</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>15.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>1763.698</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>6000.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>4409.246</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>826.734</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>35031.461</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>3968.321</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>210.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>11150.983</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>334.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2066.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>5663.676</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>438.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>3915.410</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>236.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1435.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

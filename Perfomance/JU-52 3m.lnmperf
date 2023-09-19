@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2021-10-10T20:48:57+02:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.16</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>JU-52 3m</Name>
+      <AircraftType>JU-52</AircraftType>
+      <Description>
+Consumption measured in the MSFS 2020 simulator (3 engines) ; no wind ; Asobo JU-52 3m	
+
+Fuel load: 100%	
+
+16 passengers + 1 flight attendant + 3 crew = 20x85 kg = 1700 kg
+	
+TOW = 9078 kg	
+	
+Climb from sea level to 2400 m in 5 mn ; 1950 RPM ; 5 m/s ; full rich        372 kg / 489 l / h
+	
+Cruising speed ; mixture lean ; 210 km/h ; 1925 RPM ; alt 2500 m            274 kg / 360 l /h
+	
+Descent from 2500 m to 500 m ; 5,5 m/s ; 185 km/h ; full rich ; RPM idle    96 kg / 126 l / h
+</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>5.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>1640.420</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>220.462</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>44.092</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>4021.232</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>595.248</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>113.378</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>820.120</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>97.181</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>604.067</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>114.457</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>211.644</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>99.880</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1080.709</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

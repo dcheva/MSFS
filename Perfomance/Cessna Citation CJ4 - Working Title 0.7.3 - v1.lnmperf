@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2020-12-11T18:09:36</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.4.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Cessna Citation CJ4</Name>
+      <AircraftType>C25C</AircraftType>
+      <Description>Performance with Working Title CJ4 Mod 0.7.3
+
+Climb Performance at 90% thrust, speed 240KIAS to FL400
+
+Cruise Performance at 85% thrust, speed M.677 @ FL400
+
+Descent performance average from FL400 to touchdown</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>3130.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>750.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>0.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>5762.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>1000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>350.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>1881.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>385.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1100.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>940.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>360.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>510.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>245.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1200.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

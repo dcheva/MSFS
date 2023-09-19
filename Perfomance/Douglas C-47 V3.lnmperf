@@ -1,0 +1,28 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.4.4 (revision b96521a) on 2020 02 15T16:58:29
+ProgramVersion=2.4.4
+FormatVersion=2.4.0
+Name=Douglas C-47 V3
+AircraftType=DC3
+Description="Fuel capacity= 822gal 3736l  5922lbs\n\nhttps://en.wikipedia.org/wiki/Douglas_DC-3"
+FuelAsVolume=false
+JetFuel=false
+
+[Perf]
+UsableFuel=5922
+TaxiFuelLbsGal=11
+ReserveFuelLbsGal=100
+ExtraFuelLbsGal=499
+ContingencyFuelPercent=5
+ClimbVertSpeedFtPerMin=800
+ClimbSpeedKtsTAS=123
+ClimbFuelFlowLbsGalPerHour=913
+CruiseSpeedKtsTAS=169
+CruiseFuelFlowLbsGalPerHour=793
+DescentSpeedKtsTAS=171
+DescentVertSpeedFtPerMin=899
+DescentFuelFlowLbsGalPerHour=498
+AlternateSpeed=165
+AlternateFuelFlow=785
+MinRunwayLength=0
+RunwayType=Soft

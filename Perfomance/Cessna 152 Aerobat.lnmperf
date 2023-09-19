@@ -1,0 +1,28 @@
+[Options]
+Metadata=Creado por Little Navmap Versión 2.4.5 (revisión 0bde498) en 2020 09 13T16:05:11
+ProgramVersion=2.4.5
+FormatVersion=2.4.0
+Name=Cessna 152 Aero Asobo
+AircraftType=TT:ATCCOM.AC_MODEL C152.0.text
+Description=
+FuelAsVolume=true
+JetFuel=false
+
+[Perf]
+UsableFuel=26
+TaxiFuelLbsGal=0.128735
+ReserveFuelLbsGal=1
+ExtraFuelLbsGal=0
+ContingencyFuelPercent=0
+ClimbVertSpeedFtPerMin=849.307
+ClimbSpeedKtsTAS=63.2595
+ClimbFuelFlowLbsGalPerHour=11.5604
+CruiseSpeedKtsTAS=102.74
+CruiseFuelFlowLbsGalPerHour=6.77701
+DescentSpeedKtsTAS=84.4175
+DescentVertSpeedFtPerMin=591.188
+DescentFuelFlowLbsGalPerHour=3.03103
+AlternateSpeed=100
+AlternateFuelFlow=7
+MinRunwayLength=725
+RunwayType=Soft

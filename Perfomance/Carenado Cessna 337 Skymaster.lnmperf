@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2023-05-07T12:39:05+03:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Carenado Cessna 337 Skymaster</Name>
+      <AircraftType>C337</AircraftType>
+      <Simulator></Simulator>
+      <Description>@85% 2k 204kts 233pph 1000m 5h</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>5.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>102.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>0.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>42.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>0.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>1164.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>100.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>150.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>155.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>135.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>855.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>125.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>175.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>30.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>100.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>855.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

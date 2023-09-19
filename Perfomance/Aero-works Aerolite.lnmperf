@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2021-10-27T12:21:29-07:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.17</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Aerolite 103 Orange</Name>
+      <AircraftType>103</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>300.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>10.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>0.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>40.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>10.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>40.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>28.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>40.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>381.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>25.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>45.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>3.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>40.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>300.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

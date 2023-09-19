@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-11-06T21:19:02+00:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.19</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Cessna Citation Longitude DAKFLY</Name>
+      <AircraftType>C700</AircraftType>
+      <Description>DAKFLY MOD: FL430, 0.8 Mach Cruise, 270kts/mach0.76 Climb and Descent, Max Fuel, MTOW 39,500lbs</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>5.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>4810.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>924.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>154.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>14500.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>2000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>350.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>3311.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>342.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2441.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>1754.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>457.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>701.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>307.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2479.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

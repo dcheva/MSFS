@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2020-09-21T20:45:37</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.0.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>TBM 930 Purple, Pink &amp; Cream</Name>
+      <AircraftType>TBM 930</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>10.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>100.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>0.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>200.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>15.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>1956.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>200.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>100.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>265.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>133.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1368.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>196.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>183.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>140.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>145.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>525.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

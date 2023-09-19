@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2023-04-27T20:56:59+03:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Bonanza G36 Turbo9</Name>
+      <AircraftType>BE36</AircraftType>
+      <Simulator></Simulator>
+      <Description>Based on the mod from Robert Young.  Bonanza Turbo.
+https://github.com/roblenvic/Bonanza-Turbo
+
+V3 completely compatible with the latest Asobo update (24 Nov)
+
+</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>5.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>24.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>900.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>24.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>4.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>481.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>60.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>100.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>94.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>132.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>840.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>66.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>136.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>24.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>87.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>652.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

@@ -1,0 +1,23 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.2.4 (revision 5ae9b03) on 2019 06 05T22:26:17
+ProgramVersion=2.2.4
+FormatVersion=1.0.0
+Name=A2A Piper Pa-24-250 Comanche
+AircraftType=Comanche
+Description=
+FuelAsVolume=true
+JetFuel=false
+
+[Perf]
+TaxiFuelLbsGal=1.32086
+ReserveFuelLbsGal=2.64172
+ExtraFuelLbsGal=1.32086
+ContingencyFuelPercent=0
+ClimbVertSpeedFtPerMin=1247
+ClimbSpeedKtsTAS=99
+ClimbFuelFlowLbsGalPerHour=1.58503
+CruiseSpeedKtsTAS=162
+CruiseFuelFlowLbsGalPerHour=1.8492
+DescentSpeedKtsTAS=119
+DescentVertSpeedFtPerMin=950
+DescentFuelFlowLbsGalPerHour=0.528344

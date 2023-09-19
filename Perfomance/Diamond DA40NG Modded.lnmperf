@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2021-06-21T20:25:50</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.7.0.develop</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Diamond DA40NG</Name>
+      <AircraftType>DA40</AircraftType>
+      <Description>AVERAGE PERFORMANCE DATA ASSUMES AN ALTITUDE OF 14,000 FT (CONSIDERED IDEAL ALTITUDE GIVEN OXYGEN LIMITATION) WITH NO/LITTLE WIND
+
+Vr @ 1100 kg (2425 lbs) flaps T/O - min. 61 KIAS
+
+Initial climb @ 67 KIAS for same weight
+
+CLIMB THROTTLE: 92% or 2100 RPM
+
+Vy rate-of-climb airspeed @ 1100 kg (2425 lbs. flaps T/O): 72 KIAS
+
+Cruise climb flaps up for all weights - 88 KIAS
+
+Standard cruise (assuming weight of 1310 kg (2888 lbs.)
+
+FOR MAX RANGE
+Power set to 60%
+Performance: Approx.123-130 KIAS / 5 GPH
+
+FOR SHORTER DURATION/RANGE
+Power set to 75%
+Performance: Approx. 137-142 KIAS / 6.5 GPH
+
+DESCENT:
+Power set to approx 35% - 40% / 3 GPH
+Set to 800fpm
+
+Maximum safe structural cruise airspeed - 130 KIAS
+Maximum airspeed, do not exceed (only in smooth air) - 172 KIAS
+
+Reserve fuel of 3 gallons = approx.30 minutes flight time
+10% contingency added for wind / routing factors
+
+IMPORTANT NOTE: Performance / range varies according to weather, altitude, winds aloft, plane weight, fuel amount, and pilot handling.
+
+Used in conjunction with mrtommymxr DA40NG Improvement Mod: https://flightsim.to/file/2738/da40-ngx-project
+This profile will ONLY recognize the DA40NG used in this mod! (Aircraft type field match)</Description>
+      <FuelAsVolume>1</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>10.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>1300.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>3.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>1.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>39.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>5.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>125.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>8.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>95.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>750.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>5.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>125.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>4.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>125.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>550.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

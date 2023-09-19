@@ -1,0 +1,23 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.2.4 (revision 5ae9b03) on 2019 06 05T21:30:22
+ProgramVersion=2.2.4
+FormatVersion=1.0.0
+Name=A2A Supermarine Spitfire Mk IIa
+AircraftType=Spitfire
+Description=
+FuelAsVolume=false
+JetFuel=false
+
+[Perf]
+TaxiFuelLbsGal=264.555
+ReserveFuelLbsGal=264.555
+ExtraFuelLbsGal=264.555
+ContingencyFuelPercent=0
+ClimbVertSpeedFtPerMin=2137
+ClimbSpeedKtsTAS=140
+ClimbFuelFlowLbsGalPerHour=3505.35
+CruiseSpeedKtsTAS=292
+CruiseFuelFlowLbsGalPerHour=3174.66
+DescentSpeedKtsTAS=221
+DescentVertSpeedFtPerMin=2528
+DescentFuelFlowLbsGalPerHour=1719.61

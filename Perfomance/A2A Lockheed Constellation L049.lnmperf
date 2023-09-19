@@ -1,0 +1,23 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.2.4 (revision 5ae9b03) on 2019 06 05T17:46:58
+ProgramVersion=2.2.4
+FormatVersion=1.0.0
+Name=A2A Lockheed Constellation L049
+AircraftType=L049
+Description=
+FuelAsVolume=false
+JetFuel=false
+
+[Perf]
+TaxiFuelLbsGal=319.67
+ReserveFuelLbsGal=2204.62
+ExtraFuelLbsGal=1102.31
+ContingencyFuelPercent=0
+ClimbVertSpeedFtPerMin=1239
+ClimbSpeedKtsTAS=175
+ClimbFuelFlowLbsGalPerHour=3216.54
+CruiseSpeedKtsTAS=242
+CruiseFuelFlowLbsGalPerHour=2281.78
+DescentSpeedKtsTAS=220
+DescentVertSpeedFtPerMin=1094
+DescentFuelFlowLbsGalPerHour=773.822

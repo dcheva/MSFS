@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-12-04T14:21:59-05:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.3.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>FFX Vision Jet Shuttle</Name>
+      <AircraftType>SF50</AircraftType>
+      <Simulator></Simulator>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>1700.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>333.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>51.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>2322.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>418.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>250.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>685.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>165.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1500.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>543.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>300.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>626.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>250.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1100.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

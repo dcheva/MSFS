@@ -1,0 +1,23 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.2.4 (revision 5ae9b03) on 2019 06 13T16:34:50
+ProgramVersion=2.2.4
+FormatVersion=1.0.0
+Name=AN2 Lufthansa DM-SKE
+AircraftType=An-2
+Description=
+FuelAsVolume=false
+JetFuel=false
+
+[Perf]
+TaxiFuelLbsGal=24.2508
+ReserveFuelLbsGal=44.0924
+ExtraFuelLbsGal=22.0462
+ContingencyFuelPercent=0
+ClimbVertSpeedFtPerMin=658
+ClimbSpeedKtsTAS=91
+ClimbFuelFlowLbsGalPerHour=460.766
+CruiseSpeedKtsTAS=132
+CruiseFuelFlowLbsGalPerHour=462.971
+DescentSpeedKtsTAS=97
+DescentVertSpeedFtPerMin=757
+DescentFuelFlowLbsGalPerHour=156.528

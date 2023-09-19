@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-12-02T19:00:25+01:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.4.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>FenixA320_FlyingFriends</Name>
+      <AircraftType>A320</AircraftType>
+      <Simulator>MSFS</Simulator>
+      <Description>A320 CFM Fenix</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>30.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>5000.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>2204.623</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>440.925</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>46898.945</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>4409.246</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>300.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>12092.357</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>345.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2280.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>5341.802</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>447.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>2791.053</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>259.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1436.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

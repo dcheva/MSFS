@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2021-10-27T09:28:32-07:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.17</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Aermacchi MB-339A Factory Livery</Name>
+      <AircraftType>MB-339</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>100.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>2300.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>200.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>27.376</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>2000.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>320.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>340.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>942.896</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>303.177</SpeedKtsTAS>
+        <VertSpeedFtPerMin>3559.397</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>935.439</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>383.256</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>492.161</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>237.045</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1462.309</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

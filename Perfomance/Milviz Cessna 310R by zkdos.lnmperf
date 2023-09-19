@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-05-23T16:44:06</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.5.rc1</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Cessna</Name>
+      <AircraftType>310R</AircraftType>
+      <Description>Milviz C310R by zkdos
+
+Climb figures are for top of 2500rpm/top of green MP (ISA conditions at MAUW)
+
+Cruise figures from C310R POH for 7500 ft cruise at 2400RPM/23&quot;MP (ISA conditions at MAUW)</Description>
+      <FuelAsVolume>1</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>10.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>2.113</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>1804.462</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>15.058</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>2.113</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>162.994</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>30.380</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>185.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>40.947</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>130.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>850.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>30.380</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>185.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>19.813</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>200.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>850.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

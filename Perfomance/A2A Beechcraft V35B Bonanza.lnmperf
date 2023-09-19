@@ -1,0 +1,23 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.2.4 (revision 5ae9b03) on 2019 06 10T15:56:53
+ProgramVersion=2.2.4
+FormatVersion=1.0.0
+Name=A2A Beechcraft V35B Bonanza
+AircraftType=BE35
+Description=
+FuelAsVolume=false
+JetFuel=false
+
+[Perf]
+TaxiFuelLbsGal=13.2277
+ReserveFuelLbsGal=220.462
+ExtraFuelLbsGal=0
+ContingencyFuelPercent=0
+ClimbVertSpeedFtPerMin=962
+ClimbSpeedKtsTAS=141
+ClimbFuelFlowLbsGalPerHour=132.277
+CruiseSpeedKtsTAS=165
+CruiseFuelFlowLbsGalPerHour=119.05
+DescentSpeedKtsTAS=145
+DescentVertSpeedFtPerMin=871
+DescentFuelFlowLbsGalPerHour=39.6832

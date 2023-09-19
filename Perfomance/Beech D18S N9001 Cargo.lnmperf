@@ -1,0 +1,28 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.4.4 (revision b96521a) on 2020 02 15T17:11:27
+ProgramVersion=2.4.4
+FormatVersion=2.4.0
+Name=Beech D18S Cargo N9001 Methow
+AircraftType=18
+Description="Fuel capacity = 1716lbs = 286gal\n\nhttps://en.wikipedia.org/wiki/Beechcraft_Model_18\nhttps://www.risingup.com/planespecs/info/airplane69.shtml"
+FuelAsVolume=false
+JetFuel=false
+
+[Perf]
+UsableFuel=1716
+TaxiFuelLbsGal=6
+ReserveFuelLbsGal=220
+ExtraFuelLbsGal=40
+ContingencyFuelPercent=5
+ClimbVertSpeedFtPerMin=1444
+ClimbSpeedKtsTAS=114
+ClimbFuelFlowLbsGalPerHour=420
+CruiseSpeedKtsTAS=183
+CruiseFuelFlowLbsGalPerHour=354
+DescentSpeedKtsTAS=196
+DescentVertSpeedFtPerMin=983
+DescentFuelFlowLbsGalPerHour=234
+AlternateSpeed=190
+AlternateFuelFlow=390
+MinRunwayLength=500
+RunwayType=Soft

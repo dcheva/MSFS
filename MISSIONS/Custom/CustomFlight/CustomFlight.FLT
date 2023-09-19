@@ -4,8 +4,8 @@ EventTriggersFileCount=1
 EventTriggersFile.0=EventTriggers
 
 [Main]
-Title=London City to London City
-Description=London City to London City
+Title=Free flight
+Description=Free flight
 AppVersion=10.0.61355
 FlightVersion=1
 MissionType=FreeFlight
@@ -24,7 +24,7 @@ SlewDisplayPage=1
 AxisIndicator=Off
 
 [Sim.0]
-Sim=Black Square 208B Grand Caravan Default Green
+Sim=Black Square Baron 58P Default Burgandy
 Pilot=Pilot_Male_Uniform
 Copilot=Pilot_Female_Uniform
 TailNumber=DCH300
@@ -60,18 +60,13 @@ ICAO=EGLC
 RunwayNumber=27
 RunwayDesignator=NONE
 
-[Arrival]
-ICAO=EGLC
-RunwayNumber=27
-RunwayDesignator=NONE
-
 [Loading]
 ImageName0=LOADING_FREEFLIGHT
-Tips0=bksq-aircraft-analogcaravan,You can select different radio configurations using the knobs on the right of the panel in this aircraft.,TipCategory_Aircraft
-Tips1=bksq-aircraft-analogcaravan,There are 12 busses and 90 electrical circuits simulated in this aircraft with interactable circuit breakers.,TipCategory_Aircraft
-Tips2=bksq-aircraft-analogcaravan,Many items in this aircraft remember their state from the last time you flew like your radio configuration.,TipCategory_Aircraft
-Tips3=bksq-aircraft-analogcaravan,See the extensive operating manual packaged with this aircraft for details on every piece of equipment.,TipCategory_Aircraft
-Tips4=bksq-aircraft-analogcaravan,Try flying IFR with no GPS for one of the greatest challenges in aviation.,TipCategory_Aircraft
+Tips0=bksq-aircraft-analogbaron,You can select different radio configurations using the knobs on the right of the panel in this aircraft.,TipCategory_Aircraft
+Tips1=bksq-aircraft-analogbaron,There are over 80 electrical circuits simulated in this aircraft with interactable circuit breakers.,TipCategory_Aircraft
+Tips2=bksq-aircraft-analogbaron,Try the new random and scheduled failure systems accessible through the weather radar interface.,TipCategory_Aircraft
+Tips3=bksq-aircraft-analogbaron,See the extensive operating manual packaged with this aircraft for details on every piece of equipment.,TipCategory_Aircraft
+Tips4=bksq-aircraft-analogbaron,Try flying IFR with no GPS for one of the greatest challenges in aviation.,TipCategory_Aircraft
 
 [TrafficOptions]
 
@@ -91,22 +86,16 @@ UndocCoords=0, 0, 0, 0
 NumberofAgents=0
 
 [ATC_Aircraft.0]
-ActiveFlightPlan=True
+ActiveFlightPlan=False
 RequestedFlightPlan=False
 AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
-Waypoint.0=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.1=, , , TIMECLIMB, U, N51° 30.44', W0° 0.77', +000623.52, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.2=, , , TIMECRUIS, U, N51° 29.77', W0° 10.15', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.3=, #, , Palace of Westminster, U, N51° 29.96', W0° 7.48', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.4=, , , TIMEDSCNT, U, N51° 30.00', W0° 6.43', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.5=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-NumberofWaypoints=6
+NumberofWaypoints=0
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
-WaypointNext=1
+WaypointNext=0
 AltCleared=-1
 HdgAssigned=-1
-SquawkAssigned=1255346688
+SquawkAssigned=4608
 LandingSequence=LANDING_NONE
 DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
 ParkingRequest=PARKING_NAME_NONE
@@ -126,28 +115,10 @@ BVAirspaceTransitionReq=BV_TYPE_NONE
 TakeoffSequence=TAKEOFF_SEQUENCE_NONE
 LandingSequenceNumber=-1
 TaxiRouteCurrent=-1
-CruisingAltitude=1500
+CruisingAltitude=-1
 RequestedCruisingAltitude=-1
 ExpectedAltitude=-1
 AircraftSignature=1,0
-
-[ATC_ActiveFlightPlan.0]
-title=London City to London City
-description=London City to London City
-type=VFR
-routetype=0
-cruising_altitude=1200
-departure_id=EGLC, N51° 30.30', E0° 3.01', +000000.00
-departure_position=27
-destination_id=EGLC, N51° 30.30', E0° 3.01', +000000.00
-departure_name=London City
-destination_name=London City
-waypoint.0=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.1=, , , TIMECLIMB, U, N51° 30.44', W0° 0.77', +000623.52, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.2=, , , TIMECRUIS, U, N51° 29.77', W0° 10.15', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.3=, #, , Palace of Westminster, U, N51° 29.96', W0° 7.48', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.4=, , , TIMEDSCNT, U, N51° 30.00', W0° 6.43', +001200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.5=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -155,36 +126,20 @@ NumberofAircraft=1
 [ATC_MessageSystem]
 FrequencyNodes=0
 
-[GPS_Engine]
-Filename=C:\USERS\DMYTRO\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
-position=N0° 0.02', E0° 0.84', +000008.01
-Time=-1
-TimeWP=33981
-ArriveTime=417
-CountWP=6
-NextWP=1
-WpInfo0=69, 0, 0, 0, 0, 165.0, 0.0, 0.0
-WpInfo1=194, 0, 190, 0, 0, 0.0, 0.4, 0.0
-WpInfo2=194, 0, 365, 0, 0, 0.0, 1.1, 0.0
-WpInfo3=190, 0, 365, 0, 0, 0.0, 0.3, 0.0
-WpInfo4=190, 0, 365, 0, 0, 0.0, 0.1, 0.0
-WpInfo5=94, 0, 0, 0, 0, 0.0, 2.3, 0.0
-CountFP=0
-
 [DateTimeSeason]
 Season=Summer
 Year=2023
-Day=259
-Hours=9
-Minutes=26
-Seconds=21.2221832275390625
+Day=261
+Hours=21
+Minutes=7
+Seconds=35.7222747802734375
 UseZuluTime=False
 
 [SimplifiedSim.0]
 Mode=None
 
 [SimVars.0]
-Latitude=N51° 30' 15.66"
+Latitude=N51° 30' 15.73"
 Longitude=E0° 3' 57.14"
 Altitude=+000018.00
 Pitch=0
@@ -248,45 +203,70 @@ Attitude=False
 ThrottleLeverPct=0
 PropellerLeverPct=1
 MixtureLeverPct=1
-Pct Engine RPM=0.58368908299399446804
-MaxReachedEngineRPM=33409.503488534865028
-Pct N1=50
-Pct N2=50
+Pct Engine RPM=0.25435077329542676861
+MaxReachedEngineRPM=1850.6461817080466972
+Pct N1=-1.7976931348623157081e+308
+Pct N2=-1.7976931348623157081e+308
 LeftMagneto=True
 RightMagneto=True
 GeneratorSwitch=True
 CowlFlapPct=0
-FuelPumpSwitch=True
-FuelPumpSwitch_EX1=2
+FuelPumpSwitch=False
+FuelPumpSwitch_EX1=0
 FuelValveOpen=True
 CarbHeat/DeiceSwitch=False
 EngineMasterSwitch=True
 GlowPlugTemperaturePct=1
 IgnitionSwitch=0
 StarterSwitch=False
-EGT_DegR=518.69000000000005457
-ITT_DegR=518.69000000000005457
-FuelPressurePSF=0.0097750000050291427356
-CorrectedFF=0
-Afterburner=0
+EGT_DegR=0
+ITT_DegR=-1.7976931348623157081e+308
+FuelPressurePSF=0.010000000000000000208
+CorrectedFF=-1.7976931348623157081e+308
+
+[Engine Parameters.2.0]
+ThrottleLeverPct=0
+PropellerLeverPct=1
+MixtureLeverPct=1
+Pct Engine RPM=0.25435077329542676861
+MaxReachedEngineRPM=1850.6461817080466972
+Pct N1=-1.7976931348623157081e+308
+Pct N2=-1.7976931348623157081e+308
+LeftMagneto=True
+RightMagneto=True
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=False
+FuelPumpSwitch_EX1=0
+FuelValveOpen=True
+CarbHeat/DeiceSwitch=False
+EngineMasterSwitch=True
+GlowPlugTemperaturePct=1
+IgnitionSwitch=0
+StarterSwitch=False
+EGT_DegR=0
+ITT_DegR=-1.7976931348623157081e+308
+FuelPressurePSF=0.010000000000000000208
+CorrectedFF=-1.7976931348623157081e+308
 
 [Propeller.1.0]
-prop_beta=0.017453292519943295474
+prop_beta=0.26179938779914940783
 prop_max_rpm_percent=0
 
-[Hydraulic Parameters.1.0]
-HydraulicPressure=0
+[Propeller.2.0]
+prop_beta=0.26179938779914940783
+prop_max_rpm_percent=0
 
 [Fuel.0]
-TankSelector=All
-TankSelector1=All
+TankSelector=Left Main
+TankSelector1=Right Main
 Center=0
-LeftMain=49.999996185302734375
-RightMain=49.999996185302734375
+LeftMain=50
+RightMain=50
 LeftAux=0
 RightAux=0
-LeftTip=0
-RightTip=0
+LeftTip=50
+RightTip=50
 Center 2=0
 Center 3=0
 External 1=0
@@ -307,47 +287,54 @@ EngineAirBleed.7=True
 EngineAirBleed.8=True
 APUAirBleed=True
 
+[LocalVars.0]
+BKSQ_Turbocharged=1
+BKSQ_TurbochargerSound=1
+BKSQ_Pressurized=1
+BKSQ_TipTanks=1
+BKSQ_Winglets=1
+
 [Switches.0]
 PitotHeat=False
 PitotHeat_EX1=0
 WindshieldDeice=0
 BeaconLights=True
 LandingLights=True
-LogoLights=True
+LogoLights=False
 NavLights=True
-PanelLights=False
-RecognitionLights=True
+PanelLights=True
+RecognitionLights=False
 StrobeLights=True
 TaxiLights=False
 WingLights=False
 CabinLights=False
-GlareshieldLights=False
+GlareshieldLights=True
 PedestalLights=False
 AmbientLights=False
 BeaconLightsNight=True
 LandingLightsNight=True
-LogoLightsNight=True
+LogoLightsNight=False
 NavLightsNight=True
 PanelLightsNight=True
-RecognitionLightsNight=True
+RecognitionLightsNight=False
 StrobeLightsNight=True
 TaxiLightsNight=False
 WingLightsNight=False
 CabinLightsNight=False
-GlareshieldLightsNight=False
+GlareshieldLightsNight=True
 PedestalLightsNight=False
 AmbientLightsNight=False
+Potentiometer.1=0.5
+Potentiometer.2=0.2000000000000000111
+Potentiometer.3=0.5
+Potentiometer.4=0.5999999999999999778
 
 [Electrical.0]
-bus.1=bus.12:0
-bus.8=bus.9:0
-bus.9=bus.8:0
-bus.12=bus.1:0
 circuit.1=True,1.00
 circuit.2=True,1.00
 circuit.3=True,1.00
-circuit.4=True,1.00
-circuit.5=True,1.00
+circuit.4=False,1.00
+circuit.5=False,1.00
 circuit.6=True,1.00
 circuit.7=True,1.00
 circuit.8=True,1.00
@@ -364,34 +351,34 @@ circuit.18=True,1.00
 circuit.19=True,1.00
 circuit.20=True,1.00
 circuit.21=True,1.00
-circuit.22=False,1.00
+circuit.22=True,1.00
 circuit.23=True,1.00
 circuit.24=True,1.00
 circuit.25=True,1.00
 circuit.26=True,1.00
 circuit.27=True,1.00
 circuit.28=True,1.00
-circuit.29=True,1.00
-circuit.30=False,1.00
+circuit.29=False,1.00
+circuit.30=True,1.00
 circuit.31=True,1.00
 circuit.32=True,1.00
 circuit.33=True,1.00
 circuit.34=True,1.00
 circuit.35=True,1.00
-circuit.36=False,1.00
+circuit.36=True,1.00
 circuit.37=False,1.00
-circuit.38=False,1.00
-circuit.39=False,1.00
-circuit.40=False,1.00
-circuit.41=False,1.00
+circuit.38=True,1.00
+circuit.39=True,1.00
+circuit.40=True,1.00
+circuit.41=True,1.00
 circuit.42=True,1.00
 circuit.43=False,1.00
 circuit.44=True,1.00
 circuit.45=True,1.00
 circuit.46=True,1.00
 circuit.47=True,1.00
-circuit.48=False,1.00
-circuit.49=True,1.00
+circuit.48=True,1.00
+circuit.49=False,1.00
 circuit.50=False,1.00
 circuit.51=False,1.00
 circuit.52=False,1.00
@@ -399,11 +386,11 @@ circuit.53=False,1.00
 circuit.54=False,1.00
 circuit.55=False,1.00
 circuit.56=False,1.00
-circuit.57=False,1.00
+circuit.57=True,1.00
 circuit.58=False,1.00
-circuit.59=False,1.00
-circuit.60=False,1.00
-circuit.61=False,1.00
+circuit.59=True,1.00
+circuit.60=True,1.00
+circuit.61=True,1.00
 circuit.62=True,1.00
 circuit.63=True,1.00
 circuit.64=True,1.00
@@ -428,18 +415,10 @@ circuit.82=True,1.00
 circuit.83=True,1.00
 circuit.84=True,1.00
 circuit.85=True,1.00
-circuit.86=False,1.00
-circuit.87=True,1.00
-circuit.88=True,1.00
-circuit.89=True,1.00
-circuit.90=False,1.00
-circuit.91=True,1.00
-circuit.92=True,1.00
-circuit.93=True,1.00
-circuit.94=True,1.00
+circuit.86=True,1.00
 battery.1=True
 alternator.1=True
-alternator.2=False
+alternator.2=True
 
 [Systems.0]
 BatterySwitch=True
@@ -475,9 +454,9 @@ AltitudeLock=False
 AltitudeValue=0
 AttitudeHold=False
 AirspeedHold=False
-AirspeedValue=65
+AirspeedValue=0
 MachHold=False
-MachValue=0.09830620884895324707
+MachValue=0.013686133548617362976
 VerticalSpeedHold=False
 VerticalSpeedValue=0
 RPMHold=False
@@ -499,17 +478,17 @@ SpeedSlotIndex=1
 VSSlotIndex=1
 
 [Payload.0]
-PayloadList= 180.0, 180.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0
+PayloadList=   0.0, 175.0, 175.0,   0.0,   0.0,   0.0,   0.0,   0.0
 
 [Controls.0]
 SpoilersHandle=000.00
-FlapsHandle=033.33
+FlapsHandle=050.00
 LeftFlap=033.32
 RightFlap=033.32
-GearsHandle=000.00
-Gear1=100.00
-Gear2=100.00
-Gear3=100.00
+GearsHandle=000.01
+Gear1=099.99
+Gear2=099.99
+Gear3=099.99
 YokeY=050.00
 YokeX=050.00
 Rudder=050.00
@@ -534,4 +513,4 @@ NosewheelMaxSteering=-1
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=748.57530963200724727
+SimTime=610.24515948550424582

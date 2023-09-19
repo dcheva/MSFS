@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2023-04-27T22:41:41+03:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Bonanza G36 Asobo</Name>
+      <AircraftType>BE36</AircraftType>
+      <Simulator></Simulator>
+      <Description>Performance data was used with the ongoing G36 update project which can be found on the MSFS official forums. https://github.com/TheFrett/msfs_g36_project</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>25.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>0.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>50.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>2.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>474.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>95.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>140.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>120.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>120.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>95.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>170.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>50.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>140.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

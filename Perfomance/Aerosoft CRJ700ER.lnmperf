@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2021-03-28T18:04:37</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Aerosoft CRJ700ER</Name>
+      <AircraftType>CRJ7</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>25.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>5500.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>1365.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>500.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>19594.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>3000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>250.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>6000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>290.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2000.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>3800.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>300.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>800.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>290.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1550.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

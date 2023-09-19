@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-01-28T20:17:37+01:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.7.6.develop</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Lockheed Super-Constellation L1049 Redwing</Name>
+      <AircraftType>CONI</AircraftType>
+      <Simulator></Simulator>
+      <Description>Consumption test L1049G
+
+Load : NATIONAL FLIGHT
+
+Flight conditions: clear sky, 
+no wind, 
+constant rate of climb 1000'/mn, 
+constant rate of descent: 1000'/mn 
+Use of autopilot settings for climb, cruise. For the descent use the parameters of the table of the doc: 1700 RPM / BMEP 110 
+
+Permanent mixture adjustment to keep max bmep during climb 
+
+
+Total LBS/Hour consumption during climb    5286
+
+Total LBS/Hour consumption during cruise   1807
+
+Total LBS/Hour consumption during descent 1274
+
+ 
+</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>5.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>1104.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>2000.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>2208.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>318.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>39606.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>1807.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>227.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>5286.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>205.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>1807.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>227.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>1274.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>230.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

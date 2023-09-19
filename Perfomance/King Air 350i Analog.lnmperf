@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2023-05-06T00:45:08+03:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Beechcraft King Air 350i Asobo</Name>
+      <AircraftType>B350</AircraftType>
+      <Simulator></Simulator>
+      <Description>@60% 3.5K 250kts 680lph 6h 1500nm
+@???  310kts 860lph 1500nm
+(spec) Range
+    Normal Range: 1440 nm
+    Max Range: 1550 nm
+    Service Ceiling: 35000 ft
+    Rate of Climb: 2700 fpm
+    Max Speed: 320 kts
+    Normal Cruise: 310 kts
+    Economy Cruise: 234 kts
+; UPDATE
+;@60% 3.5K 250kts 320lgph 12h 3000nm
+; fuel_flow_scalar =0.9 ; 1    ;1.05              ;JAYDEE 
+; must be 346 @220kts
+; this is 713 @220kts (60% throttle)
+; set 346/713*0.9
+; UPDATE 300kg/h (FTQ data) = 680lbs/h -&gt; 0.3885*1.85 = 0.718725
+fuel_flow_scalar =0.72
+</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>10.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>102.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>0.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>198.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>18.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>4500.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>342.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>100.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>798.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>200.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2000.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>680.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>250.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>300.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>150.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

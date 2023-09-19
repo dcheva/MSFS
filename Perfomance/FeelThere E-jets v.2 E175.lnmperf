@@ -1,0 +1,23 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.2.4 (revision 5ae9b03) on 2019 03 28T17:52:28
+ProgramVersion=2.2.4
+FormatVersion=1.0.0
+Name=feelThere Embraer E175
+AircraftType=E75L
+Description="MS FSX KCLT to KPIT.  03/28/2019.  ActiveSky live weather.  Default Takeoff, Cruise, Descent, etc. settings.  T/O Flaps 2, Mode T/0-1 Landing Flaps 5"
+FuelAsVolume=false
+JetFuel=true
+
+[Perf]
+TaxiFuelLbsGal=583
+ReserveFuelLbsGal=0
+ExtraFuelLbsGal=0
+ContingencyFuelPercent=0
+ClimbVertSpeedFtPerMin=2477
+ClimbSpeedKtsTAS=346
+ClimbFuelFlowLbsGalPerHour=6707
+CruiseSpeedKtsTAS=389
+CruiseFuelFlowLbsGalPerHour=2699
+DescentSpeedKtsTAS=259
+DescentVertSpeedFtPerMin=1239
+DescentFuelFlowLbsGalPerHour=2809

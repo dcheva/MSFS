@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EGLK to EGLC</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>4000</CruisingAlt>
+        <DepartureID>EGLK</DepartureID>
+        <DepartureLLA>N51° 19' 21.56",W0° 51' 15.18",+000323.00</DepartureLLA>
+        <DestinationID>EGLC</DestinationID>
+        <DestinationLLA>N51° 30' 18.99",E0° 3' 18.96",+000018.00</DestinationLLA>
+        <Descr>EGLK, EGLC created by Little Navmap 2.8.12</Descr>
+        <DeparturePosition>7</DeparturePosition>
+        <DepartureName>Blackbushe</DepartureName>
+        <DestinationName>London City</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EGLK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 19' 26.01",W0° 50' 51.01",+000323.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGLK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LON">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N51° 29' 14.09",W0° 27' 59.53",+004000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>EG</ICAORegion>
+                <ICAOIdent>LON</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="EGLC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 30' 18.99",E0° 3' 18.96",+000018.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGLC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,28 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.4.4 (revision b96521a) on 2020 02 15T15:33:44
+ProgramVersion=2.4.4
+FormatVersion=2.4.0
+Name=Carenado C90B King Air Japan Maritime Self-Defense (LITE VC)
+AircraftType=BE9L
+Description="Fuel Capacity=2573 lbs\nhttp://www.fsgg.nl\nfile:///c:/LNMbestanden/BE9L.txt\nfile:///c:/LNMbestanden/LittleNavmapMap20190901-121208.jpg\nhttps://www.carenado.com/sitecarenado/product/c90b-king-air-hd-series-fsx-p3d/http://www.privatepilots.nl/index_js.htm?http://www.privatepilots.nl/main.htm\nhttps://www.skybrary.aero/bookshelf/books/2263.pdf\nfile:///c:/LNMbestanden/BE9L_performance.pdf\nhttps://www.littlenavmap.org/downloads/Aircraft%20Performance/\nhttps://www.globalair.com/aircraft-for-sale/Specifications?specid=376\nhttps://www.aopa.org/go-fly/aircraft-and-ownership/aircraft-fact-sheets/beechcraft-king-air-90\nhttps://drive.google.com/drive/folders/1IdsPenxsTrESuWD0TRGqTjyu7gz8uO8T\n\n"
+FuelAsVolume=false
+JetFuel=true
+
+[Perf]
+UsableFuel=2573
+TaxiFuelLbsGal=8
+ReserveFuelLbsGal=60
+ExtraFuelLbsGal=310
+ContingencyFuelPercent=5
+ClimbVertSpeedFtPerMin=2000
+ClimbSpeedKtsTAS=180
+ClimbFuelFlowLbsGalPerHour=700
+CruiseSpeedKtsTAS=225
+CruiseFuelFlowLbsGalPerHour=732
+DescentSpeedKtsTAS=192
+DescentVertSpeedFtPerMin=1000
+DescentFuelFlowLbsGalPerHour=368
+AlternateSpeed=190
+AlternateFuelFlow=436
+MinRunwayLength=500
+RunwayType=Soft

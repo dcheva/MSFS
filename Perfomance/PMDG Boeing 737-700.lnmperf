@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-06-04T22:43:14+01:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.18</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>PMDG 737-700 TUIFly Belgium OO-JAO</Name>
+      <AircraftType>B737</AircraftType>
+      <Description>PMDG 737-700 PERFORMANCE</Description>
+      <FuelAsVolume>0</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>5.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>1102.312</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>4593.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>2204.623</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>506.270</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>65402.348</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>11023.115</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>350.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>11887.731</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>276.289</SpeedKtsTAS>
+        <VertSpeedFtPerMin>2437.591</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>3910.333</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>374.645</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>2466.100</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>272.940</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1389.385</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

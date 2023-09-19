@@ -1,0 +1,28 @@
+[Options]
+Metadata=Created by Little Navmap Version 2.4.4 (revision b96521a) on 2020 02 15T17:07:22
+ProgramVersion=2.4.4
+FormatVersion=2.4.0
+Name=Boeing 737-8Q8NGX Sun Country Airlines Winglets
+AircraftType=B738
+Description="fuel capacity= 26022l  46058lbs\n\nhttps://en.wikipedia.org/wiki/Boeing_737_Next_Generation\nhttp://www.b737.org.uk/fuel.htm\n"
+FuelAsVolume=false
+JetFuel=true
+
+[Perf]
+TaxiFuelLbsGal=99
+ReserveFuelLbsGal=3200
+ExtraFuelLbsGal=2000
+ContingencyFuelPercent=5
+ClimbVertSpeedFtPerMin=2071
+ClimbSpeedKtsTAS=412
+ClimbFuelFlowLbsGalPerHour=10954
+CruiseSpeedKtsTAS=464
+CruiseFuelFlowLbsGalPerHour=4846
+DescentSpeedKtsTAS=335
+DescentVertSpeedFtPerMin=1751
+DescentFuelFlowLbsGalPerHour=2205
+UsableFuel=46058
+AlternateSpeed=314
+AlternateFuelFlow=4499
+MinRunwayLength=0
+RunwayType=Soft
