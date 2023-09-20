@@ -4,12 +4,12 @@ EventTriggersFileCount=1
 EventTriggersFile.0=EventTriggers
 
 [Main]
-Title=Free flight
-Description=Free flight
+Title=EGTC to EGSC
+Description=EGTC, EGSC created by Little Navmap 2.8.12
 AppVersion=10.0.61355
 FlightVersion=1
 MissionType=FreeFlight
-MissionLocation=London City
+MissionLocation=Cranfield
 OriginalFlight=
 FlightType=NORMAL
 StartingCameraCategory=Custom
@@ -42,7 +42,7 @@ File=Missions\Asobo\FreeFlights\FreeFlight\FreeFlight
 Visible=True
 
 [FreeFlight]
-FirstFlightState=PREFLIGHT_HOLDSHORT
+FirstFlightState=PREFLIGHT_GATE
 
 [Weather]
 UseWeatherFile=False
@@ -56,8 +56,16 @@ FixedClouds=False
 DebugPublicAirflowDisplay=False
 
 [Departure]
-ICAO=EGLC
-RunwayNumber=27
+ICAO=EGTC
+GateName=PARKING
+GateNumber=35
+GateSuffix=NONE
+RunwayNumber=21
+RunwayDesignator=NONE
+
+[Arrival]
+ICAO=EGSC
+RunwayNumber=23
 RunwayDesignator=NONE
 
 [Loading]
@@ -86,13 +94,19 @@ UndocCoords=0, 0, 0, 0
 NumberofAgents=0
 
 [ATC_Aircraft.0]
-ActiveFlightPlan=False
-RequestedFlightPlan=False
+ActiveFlightPlan=True
+RequestedFlightPlan=True
 AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
-NumberofWaypoints=0
+Waypoint.0=, EGTC, , EGTC, A, N52° 4.33', W0° 37.00', +000358.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.1=, , , TIMECLIMB, U, N52° 2.20', W0° 39.14', +000958.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=, , , TIMECRUIS, U, N52° 6.51', W0° 18.20', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=, , , TIMEDSCNT, U, N52° 6.98', W0° 15.89', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMEAPPROACH, U, N52° 14.52', E0° 14.78', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=, EGSC, , EGSC, A, N52° 12.30', E0° 10.50', +000038.75, , , , , , NONE, 0, 0, -1, 0, 0,  
+NumberofWaypoints=6
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
-WaypointNext=0
+WaypointNext=2
 AltCleared=-1
 HdgAssigned=-1
 SquawkAssigned=4608
@@ -115,10 +129,45 @@ BVAirspaceTransitionReq=BV_TYPE_NONE
 TakeoffSequence=TAKEOFF_SEQUENCE_NONE
 LandingSequenceNumber=-1
 TaxiRouteCurrent=-1
-CruisingAltitude=-1
+CruisingAltitude=4500
 RequestedCruisingAltitude=-1
 ExpectedAltitude=-1
 AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+title=Cranfield to Cambridge
+description=Cranfield to Cambridge
+type=VFR
+routetype=0
+cruising_altitude=4000
+departure_id=EGTC, N52° 4.33', W0° 37.00', +000358.00
+departure_position=
+destination_id=EGSC, N52° 12.30', E0° 10.50', +000038.75
+departure_name=Cranfield
+destination_name=Cambridge
+waypoint.0=, EGTC, , EGTC, A, N52° 4.33', W0° 37.00', +000358.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.1=, , , TIMECLIMB, U, N52° 2.20', W0° 39.14', +000958.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , TIMECRUIS, U, N52° 6.51', W0° 18.20', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, , , TIMEDSCNT, U, N52° 6.98', W0° 15.89', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , TIMEAPPROACH, U, N52° 14.52', E0° 14.78', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, EGSC, , EGSC, A, N52° 12.30', E0° 10.50', +000038.75, , , , , , NONE, 0, 0, -1, 0, 0,  
+
+[ATC_RequestedFlightPlan.0]
+title=EGTC to EGSC
+description=EGTC, EGSC created by Little Navmap 2.8.12
+type=IFR
+routetype=0
+cruising_altitude=4000
+departure_id=EGTC, N52° 4.21', W0° 37.58', +000358.00
+departure_position=PARKING 35 PARKING NONE
+destination_id=EGSC, N52° 12.30', E0° 10.50', +000039.00
+departure_name=Cranfield
+destination_name=Cambridge
+alternate_name=AlternateName
+waypoint.0=, EGTC, , Cranfield, A, N52° 4.33', W0° 37.00', +000358.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.1=, , , TIMECRUIS, U, N52° 7.95', W0° 15.70', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , TIMEDSCNT, U, N52° 8.44', W0° 12.76', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, EGSC, , Cambridge, A, N52° 12.30', E0° 10.50', +000050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -126,25 +175,39 @@ NumberofAircraft=1
 [ATC_MessageSystem]
 FrequencyNodes=0
 
+[GPS_Engine]
+Filename=C:\USERS\DMYTRO\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
+position=N0° 0.02', E0° 0.84', +000003.50
+Time=-1
+TimeWP=27665
+ArriveTime=847
+CountWP=4
+NextWP=3
+WpInfo0=99, 0, 109, 0, 0, 101.0, 0.0, 0.0
+WpInfo1=105, 0, 1219, 0, 0, 0.0, 3.2, 0.0
+WpInfo2=105, 0, 1219, 0, 0, 0.0, 0.4, 0.0
+WpInfo3=142, 0, 15, 0, 0, 0.0, 2.2, 0.0
+CountFP=0
+
 [DateTimeSeason]
 Season=Summer
 Year=2023
-Day=261
-Hours=21
-Minutes=7
-Seconds=35.7222747802734375
+Day=263
+Hours=7
+Minutes=41
+Seconds=5.8333277702331542969
 UseZuluTime=False
 
 [SimplifiedSim.0]
 Mode=None
 
 [SimVars.0]
-Latitude=N51° 30' 15.73"
-Longitude=E0° 3' 57.14"
-Altitude=+000018.00
+Latitude=N52° 4' 12.74"
+Longitude=W0° 37' 34.96"
+Altitude=+000358.00
 Pitch=0
 Bank=0
-Heading=1.6822870261967182159
+Heading=-72.644348144531221578
 PVelBodyAxis=0
 BVelBodyAxis=0
 HVelBodyAxis=0
@@ -155,7 +218,7 @@ SimOnGround=True
 OnPlatformHeight=-9999999999
 
 [Avionics.0]
-Comm1Active=127.850
+Comm1Active=118.300
 Comm1Standby=124.850
 Comm2Active=124.850
 Comm2Standby=124.850
@@ -174,7 +237,7 @@ Nav4Active=110.50
 Nav4Standby=113.90
 OBS4=360
 Transponder=0000
-TransponderState=4
+TransponderState=0
 ADFActive=890
 ADF2Active=890
 DMESelected=1
@@ -189,7 +252,7 @@ AudioMarkerListen=True
 AudioDmeListen=False
 AudioAdfListen=False
 AudioAdf2Listen=False
-AvionicsSwitch=True
+AvionicsSwitch=False
 
 [Slew.0]
 Active=False
@@ -202,20 +265,20 @@ Attitude=False
 [Engine Parameters.1.0]
 ThrottleLeverPct=0
 PropellerLeverPct=1
-MixtureLeverPct=1
-Pct Engine RPM=0.25435077329542676861
-MaxReachedEngineRPM=1850.6461817080466972
+MixtureLeverPct=0
+Pct Engine RPM=0
+MaxReachedEngineRPM=2454.7394303494743326
 Pct N1=-1.7976931348623157081e+308
 Pct N2=-1.7976931348623157081e+308
-LeftMagneto=True
-RightMagneto=True
-GeneratorSwitch=True
+LeftMagneto=False
+RightMagneto=False
+GeneratorSwitch=False
 CowlFlapPct=0
 FuelPumpSwitch=False
 FuelPumpSwitch_EX1=0
 FuelValveOpen=True
 CarbHeat/DeiceSwitch=False
-EngineMasterSwitch=True
+EngineMasterSwitch=False
 GlowPlugTemperaturePct=1
 IgnitionSwitch=0
 StarterSwitch=False
@@ -227,20 +290,20 @@ CorrectedFF=-1.7976931348623157081e+308
 [Engine Parameters.2.0]
 ThrottleLeverPct=0
 PropellerLeverPct=1
-MixtureLeverPct=1
-Pct Engine RPM=0.25435077329542676861
-MaxReachedEngineRPM=1850.6461817080466972
+MixtureLeverPct=0
+Pct Engine RPM=0
+MaxReachedEngineRPM=2454.7394303494743326
 Pct N1=-1.7976931348623157081e+308
 Pct N2=-1.7976931348623157081e+308
-LeftMagneto=True
-RightMagneto=True
-GeneratorSwitch=True
+LeftMagneto=False
+RightMagneto=False
+GeneratorSwitch=False
 CowlFlapPct=0
 FuelPumpSwitch=False
 FuelPumpSwitch_EX1=0
 FuelValveOpen=True
 CarbHeat/DeiceSwitch=False
-EngineMasterSwitch=True
+EngineMasterSwitch=False
 GlowPlugTemperaturePct=1
 IgnitionSwitch=0
 StarterSwitch=False
@@ -250,11 +313,11 @@ FuelPressurePSF=0.010000000000000000208
 CorrectedFF=-1.7976931348623157081e+308
 
 [Propeller.1.0]
-prop_beta=0.26179938779914940783
+prop_beta=1.3962634015954635824
 prop_max_rpm_percent=0
 
 [Propeller.2.0]
-prop_beta=0.26179938779914940783
+prop_beta=1.3962634015954635824
 prop_max_rpm_percent=0
 
 [Fuel.0]
@@ -298,26 +361,26 @@ BKSQ_Winglets=1
 PitotHeat=False
 PitotHeat_EX1=0
 WindshieldDeice=0
-BeaconLights=True
-LandingLights=True
+BeaconLights=False
+LandingLights=False
 LogoLights=False
-NavLights=True
+NavLights=False
 PanelLights=True
 RecognitionLights=False
-StrobeLights=True
+StrobeLights=False
 TaxiLights=False
 WingLights=False
 CabinLights=False
 GlareshieldLights=True
 PedestalLights=False
 AmbientLights=False
-BeaconLightsNight=True
-LandingLightsNight=True
+BeaconLightsNight=False
+LandingLightsNight=False
 LogoLightsNight=False
-NavLightsNight=True
+NavLightsNight=False
 PanelLightsNight=True
 RecognitionLightsNight=False
-StrobeLightsNight=True
+StrobeLightsNight=False
 TaxiLightsNight=False
 WingLightsNight=False
 CabinLightsNight=False
@@ -369,11 +432,11 @@ circuit.36=True,1.00
 circuit.37=False,1.00
 circuit.38=True,1.00
 circuit.39=True,1.00
-circuit.40=True,1.00
-circuit.41=True,1.00
-circuit.42=True,1.00
+circuit.40=False,1.00
+circuit.41=False,1.00
+circuit.42=False,1.00
 circuit.43=False,1.00
-circuit.44=True,1.00
+circuit.44=False,1.00
 circuit.45=True,1.00
 circuit.46=True,1.00
 circuit.47=True,1.00
@@ -386,9 +449,9 @@ circuit.53=False,1.00
 circuit.54=False,1.00
 circuit.55=False,1.00
 circuit.56=False,1.00
-circuit.57=True,1.00
+circuit.57=False,1.00
 circuit.58=False,1.00
-circuit.59=True,1.00
+circuit.59=False,1.00
 circuit.60=True,1.00
 circuit.61=True,1.00
 circuit.62=True,1.00
@@ -416,12 +479,12 @@ circuit.83=True,1.00
 circuit.84=True,1.00
 circuit.85=True,1.00
 circuit.86=True,1.00
-battery.1=True
-alternator.1=True
-alternator.2=True
+battery.1=False
+alternator.1=False
+alternator.2=False
 
 [Systems.0]
-BatterySwitch=True
+BatterySwitch=False
 StructuralDeiceSwitch=False
 StructuralDeiceSwitch_EX1=0
 PropDeiceSwitch=False
@@ -482,9 +545,9 @@ PayloadList=   0.0, 175.0, 175.0,   0.0,   0.0,   0.0,   0.0,   0.0
 
 [Controls.0]
 SpoilersHandle=000.00
-FlapsHandle=050.00
-LeftFlap=033.32
-RightFlap=033.32
+FlapsHandle=000.00
+LeftFlap=000.00
+RightFlap=000.00
 GearsHandle=000.01
 Gear1=099.99
 Gear2=099.99
@@ -513,4 +576,4 @@ NosewheelMaxSteering=-1
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=610.24515948550424582
+SimTime=668.92092003732568628

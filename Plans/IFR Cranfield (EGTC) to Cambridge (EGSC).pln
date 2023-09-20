@@ -1,46 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <FlightPlan.FlightPlan>
         <Title>EGTC to EGSC</Title>
         <FPType>IFR</FPType>
-        <CruisingAlt>4000.000</CruisingAlt>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4000</CruisingAlt>
         <DepartureID>EGTC</DepartureID>
         <DepartureLLA>N52° 4' 12.74",W0° 37' 34.94",+000358.00</DepartureLLA>
         <DestinationID>EGSC</DestinationID>
         <DestinationLLA>N52° 12' 18.01",E0° 10' 29.96",+000039.00</DestinationLLA>
         <Descr>EGTC, EGSC created by Little Navmap 2.8.12</Descr>
-        <DeparturePosition>PARKING 35 PARKING NONE</DeparturePosition>
+        <DeparturePosition>PARKING 35</DeparturePosition>
         <DepartureName>Cranfield</DepartureName>
         <DestinationName>Cambridge</DestinationName>
-        <AlternateName>AlternateName</AlternateName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="Cranfield">
+        <ATCWaypoint id="EGTC">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N52° 4' 20.00",W0° 37' 0.00",+000358.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N52° 4' 20.01",W0° 37' 0.01",+000358.00</WorldPosition>
             <ICAO>
                 <ICAOIdent>EGTC</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
-        <ATCWaypoint id="TIMECRUIS">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N52° 7' 57.10",W0° 15' 41.76",+004000.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
-        <ATCWaypoint id="TIMEDSCNT">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N52° 8' 26.70",W0° 12' 45.53",+004000.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
-        <ATCWaypoint id="Cambridge">
+        <ATCWaypoint id="EGSC">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N52° 12' 18.00",E0° 10' 30.00",+000050.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N52° 12' 18.01",E0° 10' 29.96",+000039.00</WorldPosition>
             <ICAO>
                 <ICAOIdent>EGSC</ICAOIdent>
             </ICAO>

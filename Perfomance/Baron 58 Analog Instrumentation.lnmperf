@@ -2,10 +2,10 @@
 <LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
   <AircraftPerf>
     <Header>
-      <CreationDate>2023-05-07T04:38:48+03:00</CreationDate>
+      <CreationDate>2023-09-20T01:06:45+03:00</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
-      <ProgramVersion>2.8.10</ProgramVersion>
+      <ProgramVersion>2.8.12</ProgramVersion>
       <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
     </Header>
     <Options>
@@ -29,18 +29,18 @@
         <SpeedKtsTAS>170.000</SpeedKtsTAS>
       </Alternate>
       <Climb>
-        <FuelFlowLbsGalPerHour>240.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>130.000</SpeedKtsTAS>
-        <VertSpeedFtPerMin>1373.000</VertSpeedFtPerMin>
+        <FuelFlowLbsGalPerHour>270.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>140.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1445.000</VertSpeedFtPerMin>
       </Climb>
       <Cruise>
-        <FuelFlowLbsGalPerHour>233.000</FuelFlowLbsGalPerHour>
+        <FuelFlowLbsGalPerHour>243.000</FuelFlowLbsGalPerHour>
         <SpeedKtsTAS>204.000</SpeedKtsTAS>
       </Cruise>
       <Descent>
         <FuelFlowLbsGalPerHour>120.000</FuelFlowLbsGalPerHour>
         <SpeedKtsTAS>185.000</SpeedKtsTAS>
-        <VertSpeedFtPerMin>995.000</VertSpeedFtPerMin>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
       </Descent>
     </Perf>
   </AircraftPerf>
