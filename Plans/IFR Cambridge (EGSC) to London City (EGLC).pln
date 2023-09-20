@@ -1,61 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <FlightPlan.FlightPlan>
         <Title>EGSC to EGLC</Title>
         <FPType>IFR</FPType>
         <RouteType>LowAlt</RouteType>
-        <CruisingAlt>4000.000</CruisingAlt>
+        <CruisingAlt>4000</CruisingAlt>
         <DepartureID>EGSC</DepartureID>
         <DepartureLLA>N52° 12' 33.72",E0° 10' 40.67",+000039.00</DepartureLLA>
         <DestinationID>EGLC</DestinationID>
         <DestinationLLA>N51° 30' 18.99",E0° 3' 18.96",+000018.00</DestinationLLA>
         <Descr>EGSC, EGLC created by Little Navmap 2.8.12</Descr>
-        <DeparturePosition>PARKING 23 PARKING NONE</DeparturePosition>
+        <DeparturePosition>PARKING 23</DeparturePosition>
         <DepartureName>Cambridge</DepartureName>
         <DestinationName>London City</DestinationName>
-        <AlternateName>AlternateName</AlternateName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="Cambridge">
+        <ATCWaypoint id="EGSC">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N52° 12' 18.00",E0° 10' 30.00",+000038.75</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N52° 12' 18.01",E0° 10' 29.96",+000039.00</WorldPosition>
             <ICAO>
                 <ICAOIdent>EGSC</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="BKY">
             <ATCWaypointType>VOR</ATCWaypointType>
-            <WorldPosition>N51° 59' 23.17",E0° 3' 42.87",+002750.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N51° 59' 23.17",E0° 3' 42.91",+004000.00</WorldPosition>
             <ICAO>
                 <ICAORegion>EG</ICAORegion>
                 <ICAOIdent>BKY</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
-        <ATCWaypoint id="TIMECRUIS">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N51° 53' 23.41",E0° 0' 58.80",+004000.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
-        <ATCWaypoint id="TIMEDSCNT">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N51° 44' 17.68",W0° 3' 8.62",+004000.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
         <ATCWaypoint id="D127S">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N51° 32' 11.22",W0° 8' 35.31",+001500.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N51° 32' 11.22",W0° 8' 35.31",+002598.96</WorldPosition>
+            <ICAO>
+                <ICAORegion>EG</ICAORegion>
+                <ICAOIdent>D127S</ICAOIdent>
+                <ICAOAirport>EGLL</ICAOAirport>
+            </ICAO>
         </ATCWaypoint>
-        <ATCWaypoint id="London City">
+        <ATCWaypoint id="EGLC">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N51° 30' 18.06",E0° 3' 0.59",+000000.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N51° 30' 18.99",E0° 3' 18.96",+000018.00</WorldPosition>
             <ICAO>
                 <ICAOIdent>EGLC</ICAOIdent>
             </ICAO>

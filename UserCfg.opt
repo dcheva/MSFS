@@ -39,7 +39,7 @@ Version 66
 	Version 1.1.0
 	Preset Custom
 	{Texture
-		MaxAnisotropy 4
+		MaxAnisotropy 8
 		Quality 1
 	}
 	{SuperSampling

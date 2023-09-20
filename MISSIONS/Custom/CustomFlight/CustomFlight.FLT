@@ -4,12 +4,12 @@ EventTriggersFileCount=1
 EventTriggersFile.0=EventTriggers
 
 [Main]
-Title=EGTC to EGSC
-Description=EGTC, EGSC created by Little Navmap 2.8.12
+Title=EGSC to EGLC
+Description=EGSC, EGLC created by Little Navmap 2.8.12
 AppVersion=10.0.61355
 FlightVersion=1
 MissionType=FreeFlight
-MissionLocation=Cranfield
+MissionLocation=Cambridge
 OriginalFlight=
 FlightType=NORMAL
 StartingCameraCategory=Custom
@@ -56,16 +56,16 @@ FixedClouds=False
 DebugPublicAirflowDisplay=False
 
 [Departure]
-ICAO=EGTC
+ICAO=EGSC
 GateName=PARKING
-GateNumber=35
+GateNumber=23
 GateSuffix=NONE
-RunwayNumber=21
+RunwayNumber=23
 RunwayDesignator=NONE
 
 [Arrival]
-ICAO=EGSC
-RunwayNumber=23
+ICAO=EGLC
+RunwayNumber=27
 RunwayDesignator=NONE
 
 [Loading]
@@ -97,16 +97,16 @@ NumberofAgents=0
 ActiveFlightPlan=True
 RequestedFlightPlan=True
 AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
-Waypoint.0=, EGTC, , EGTC, A, N52° 4.33', W0° 37.00', +000358.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.1=, , , TIMECLIMB, U, N52° 2.20', W0° 39.14', +000958.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.2=, , , TIMECRUIS, U, N52° 6.51', W0° 18.20', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.3=, , , TIMEDSCNT, U, N52° 6.98', W0° 15.89', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.4=, , , TIMEAPPROACH, U, N52° 14.52', E0° 14.78', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.5=, EGSC, , EGSC, A, N52° 12.30', E0° 10.50', +000038.75, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.0=, EGSC, , EGSC, A, N52° 12.30', E0° 10.50', +000038.75, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.1=, , , TIMECLIMB, U, N52° 10.65', E0° 7.31', +000638.25, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=, , , TIMECRUIS, U, N51° 53.81', E0° 5.50', +002500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=, , , TIMEDSCNT, U, N51° 45.39', E0° 4.60', +002500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMEAPPROACH, U, N51° 30.14', E0° 8.75', +000700.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 NumberofWaypoints=6
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
-WaypointNext=2
+WaypointNext=3
 AltCleared=-1
 HdgAssigned=-1
 SquawkAssigned=4608
@@ -135,39 +135,41 @@ ExpectedAltitude=-1
 AircraftSignature=1,0
 
 [ATC_ActiveFlightPlan.0]
-title=Cranfield to Cambridge
-description=Cranfield to Cambridge
+title=Cambridge to London City
+description=Cambridge to London City
 type=VFR
 routetype=0
 cruising_altitude=4000
-departure_id=EGTC, N52° 4.33', W0° 37.00', +000358.00
-departure_position=
-destination_id=EGSC, N52° 12.30', E0° 10.50', +000038.75
-departure_name=Cranfield
-destination_name=Cambridge
-waypoint.0=, EGTC, , EGTC, A, N52° 4.33', W0° 37.00', +000358.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.1=, , , TIMECLIMB, U, N52° 2.20', W0° 39.14', +000958.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.2=, , , TIMECRUIS, U, N52° 6.51', W0° 18.20', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.3=, , , TIMEDSCNT, U, N52° 6.98', W0° 15.89', +003100.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.4=, , , TIMEAPPROACH, U, N52° 14.52', E0° 14.78', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.5=, EGSC, , EGSC, A, N52° 12.30', E0° 10.50', +000038.75, , , , , , NONE, 0, 0, -1, 0, 0,  
+departure_id=EGSC, N52° 12.30', E0° 10.50', +000038.75
+departure_position=23
+destination_id=EGLC, N51° 30.30', E0° 3.01', +000000.00
+departure_name=Cambridge
+destination_name=London City
+waypoint.0=, EGSC, , EGSC, A, N52° 12.30', E0° 10.50', +000038.75, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.1=, , , TIMECLIMB, U, N52° 10.65', E0° 7.31', +000638.25, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , TIMECRUIS, U, N51° 53.81', E0° 5.50', +002500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, , , TIMEDSCNT, U, N51° 45.39', E0° 4.60', +002500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , TIMEAPPROACH, U, N51° 30.14', E0° 8.75', +000700.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, EGLC, , EGLC, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_RequestedFlightPlan.0]
-title=EGTC to EGSC
-description=EGTC, EGSC created by Little Navmap 2.8.12
+title=EGSC to EGLC
+description=EGSC, EGLC created by Little Navmap 2.8.12
 type=IFR
-routetype=0
+routetype=2
 cruising_altitude=4000
-departure_id=EGTC, N52° 4.21', W0° 37.58', +000358.00
-departure_position=PARKING 35 PARKING NONE
-destination_id=EGSC, N52° 12.30', E0° 10.50', +000039.00
-departure_name=Cranfield
-destination_name=Cambridge
+departure_id=EGSC, N52° 12.56', E0° 10.68', +000039.00
+departure_position=PARKING 23 PARKING NONE
+destination_id=EGLC, N51° 30.32', E0° 3.32', +000018.00
+departure_name=Cambridge
+destination_name=London City
 alternate_name=AlternateName
-waypoint.0=, EGTC, , Cranfield, A, N52° 4.33', W0° 37.00', +000358.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.1=, , , TIMECRUIS, U, N52° 7.95', W0° 15.70', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.2=, , , TIMEDSCNT, U, N52° 8.44', W0° 12.76', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.3=, EGSC, , Cambridge, A, N52° 12.30', E0° 10.50', +000050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.0=, EGSC, , Cambridge, A, N52° 12.30', E0° 10.50', +000038.75, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.1=EG, BKY, , BKY, V, N51° 59.39', E0° 3.71', +002750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , TIMECRUIS, U, N51° 53.39', E0° 0.98', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, , , TIMEDSCNT, U, N51° 44.29', W0° 3.14', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , D127S, U, N51° 32.19', W0° 8.59', +001500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, EGLC, , London City, A, N51° 30.30', E0° 3.01', +000000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -177,37 +179,39 @@ FrequencyNodes=0
 
 [GPS_Engine]
 Filename=C:\USERS\DMYTRO\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
-position=N0° 0.02', E0° 0.84', +000003.50
+position=N0° 0.02', E0° 0.84', +000003.47
 Time=-1
-TimeWP=27665
-ArriveTime=847
-CountWP=4
-NextWP=3
-WpInfo0=99, 0, 109, 0, 0, 101.0, 0.0, 0.0
-WpInfo1=105, 0, 1219, 0, 0, 0.0, 3.2, 0.0
-WpInfo2=105, 0, 1219, 0, 0, 0.0, 0.4, 0.0
-WpInfo3=142, 0, 15, 0, 0, 0.0, 2.2, 0.0
+TimeWP=41569
+ArriveTime=1889
+CountWP=6
+NextWP=1
+WpInfo0=99, 0, 11, 0, 0, 101.0, 0.0, 0.0
+WpInfo1=73, 0, 838, 0, 0, 0.0, 4.6, 0.0
+WpInfo2=67, 0, 1219, 0, 0, 0.0, 2.3, 0.0
+WpInfo3=67, 0, 1219, 0, 0, 0.0, 3.5, 0.0
+WpInfo4=231, 0, 457, 0, 0, 0.0, 1.3, 0.0
+WpInfo5=138, 0, 0, 0, 0, 0.0, 1.3, 0.0
 CountFP=0
 
 [DateTimeSeason]
 Season=Summer
 Year=2023
 Day=263
-Hours=7
-Minutes=41
-Seconds=5.8333277702331542969
+Hours=11
+Minutes=32
+Seconds=49.3889617919921875
 UseZuluTime=False
 
 [SimplifiedSim.0]
 Mode=None
 
 [SimVars.0]
-Latitude=N52° 4' 12.74"
-Longitude=W0° 37' 34.96"
-Altitude=+000358.00
+Latitude=N52° 12' 33.71"
+Longitude=E0° 10' 40.66"
+Altitude=+000038.75
 Pitch=0
 Bank=0
-Heading=-72.644348144531221578
+Heading=18.435487747192382812
 PVelBodyAxis=0
 BVelBodyAxis=0
 HVelBodyAxis=0
@@ -230,8 +234,8 @@ OBS1=360
 Nav2Active=110.50
 Nav2Standby=113.90
 OBS2=360
-Nav3Active=110.50
-Nav3Standby=113.90
+Nav3Active=116.25
+Nav3Standby=116.25
 OBS3=360
 Nav4Active=110.50
 Nav4Standby=113.90
@@ -519,7 +523,7 @@ AttitudeHold=False
 AirspeedHold=False
 AirspeedValue=0
 MachHold=False
-MachValue=0.013686133548617362976
+MachValue=0.013686127029359340668
 VerticalSpeedHold=False
 VerticalSpeedValue=0
 RPMHold=False
@@ -576,4 +580,4 @@ NosewheelMaxSteering=-1
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=668.92092003732568628
+SimTime=610.51305961575008041
