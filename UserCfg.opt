@@ -5,7 +5,7 @@ Version 66
 	Windowed 1
 	FullscreenBorderless 1
 	WindowActive 0
-	Resolution 1858 1057
+	Resolution 1440 810
 	FullScreenResolution 1920 1080
 	PosX 0
 	PosY 23
@@ -32,7 +32,7 @@ Version 66
 	Raytracing 0
 	PreferD3D12 1
 	IntelMessageBoxDisplayed 0
-	CurrentGPUDriverVersion 537.34.0
+	CurrentGPUDriverVersion 546.1.0
 	DoNotShowGpuDriverRequirementPopup 0
 }
 {Graphics
