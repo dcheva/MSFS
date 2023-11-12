@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>5500</CruisingAlt>
+      <CruisingAltF>5500.00000000</CruisingAltF>
+      <CreationDate>2023-11-12T22:08:54+02:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.12</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>G21A-Analog.lnmperf</FilePath>
+      <Type>G21</Type>
+      <Name>Grumman Goose G21A</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-18.074249" Lat="65.668381" Alt="6.00"/>
+      <Start>19</Start>
+      <Type>Runway</Type>
+      <Heading>175.547</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Akureyri</Name>
+        <Ident>BIAR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-18.071758" Lat="65.654808" Alt="6.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TIMECLIMB</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-18.064632" Lat="65.617249" Alt="821.53"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>Saudanes Lighthouse</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-18.951065" Lat="66.186890" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TIMECRUIS</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-19.749763" Lat="65.917191" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>Hvitserkur</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-20.635233" Lat="65.606422" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TIMEDSCNT</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-20.754889" Lat="65.629349" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TIMEAPPROACH</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-23.256289" Lat="66.031540" Alt="1612.62"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Isafjordur</Name>
+        <Ident>BIIS</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-23.135267" Lat="66.058151" Alt="8.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

@@ -1,66 +1,75 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <FlightPlan.FlightPlan>
         <Title>BIAR to BIIS</Title>
         <FPType>VFR</FPType>
-        <CruisingAlt>5500.000</CruisingAlt>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5500</CruisingAlt>
         <DepartureID>BIAR</DepartureID>
         <DepartureLLA>N65° 40' 6.17",W18° 4' 27.30",+000006.00</DepartureLLA>
         <DestinationID>BIIS</DestinationID>
         <DestinationLLA>N66° 3' 29.01",W23° 8' 6.97",+000008.00</DestinationLLA>
         <Descr>BIAR, BIIS created by Little Navmap 2.8.12</Descr>
-        <DeparturePosition>1</DeparturePosition>
+        <DeparturePosition>19</DeparturePosition>
         <DepartureName>Akureyri</DepartureName>
         <DestinationName>Isafjordur</DestinationName>
-        <AlternateName>AlternateName</AlternateName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="Akureyri">
+        <ATCWaypoint id="BIAR">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N65° 39' 17.40",W18° 4' 18.60",+000009.28</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N65° 39' 17.31",W18° 4' 18.33",+000006.00</WorldPosition>
             <ICAO>
                 <ICAOIdent>BIAR</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="TIMECLIMB">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N65° 41' 45.81",W18° 4' 46.09",+000607.54</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N65° 37' 2.09",W18° 3' 52.68",+000821.53</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TIMECLIMB</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="Saudanes Lighthouse">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N66° 11' 12.80",W18° 57' 3.83",+005500.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>Saudanes Lighthouse</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="TIMECRUIS">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N65° 55' 15.25",W19° 44' 20.22",+005500.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N65° 55' 1.89",W19° 44' 59.15",+005500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TIMECRUIS</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="Hvitserkur">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N65° 36' 23.12",W20° 38' 6.84",+005500.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>Hvitserkur</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="TIMEDSCNT">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N65° 38' 26.03",W20° 48' 49.21",+005500.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N65° 37' 45.66",W20° 45' 17.60",+005500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TIMEDSCNT</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="TIMEAPPROACH">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N66° 5' 4.91",W23° 0' 50.46",+000650.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N66° 1' 53.54",W23° 15' 22.64",+001612.62</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TIMEAPPROACH</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
-        <ATCWaypoint id="Isafjordur">
+        <ATCWaypoint id="BIIS">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N66° 3' 29.40",W23° 8' 7.20",+000000.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
+            <WorldPosition>N66° 3' 29.34",W23° 8' 6.96",+000008.00</WorldPosition>
             <ICAO>
                 <ICAOIdent>BIIS</ICAOIdent>
             </ICAO>

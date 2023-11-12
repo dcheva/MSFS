@@ -46,7 +46,7 @@ Version 66
 		SuperSampling 2
 	}
 	{Terrain
-		LoDFactor 1.000000
+		LoDFactor 2.000000
 	}
 	{OffscreenTerrainPreCaching
 		Enabled 1

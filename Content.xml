@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Priorities>
+    <Package name="navigraph-navdata-base" priority="1"/>
+    <Package name="mujagoaviation-wahi" priority="2"/>
+    <Package name="mujagoaviation-airport-wahi-yogyakarta" priority="3"/>
+    <Package name="mx-wahi" priority="4"/>
+    <Package name="projectmax-airport-wahi-yogyakarta" priority="5"/>
+    <Package name="navigraph-navdata" priority="6"/>
+</Priorities>
