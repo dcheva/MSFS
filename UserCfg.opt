@@ -3,9 +3,9 @@ Version 66
 	Adapter "NVIDIA GeForce GTX 1660"
 	Monitor 0
 	Windowed 1
-	FullscreenBorderless 1
+	FullscreenBorderless 0
 	WindowActive 0
-	Resolution 1440 810
+	Resolution 1858 1057
 	FullScreenResolution 1920 1080
 	PosX 0
 	PosY 23
@@ -14,9 +14,9 @@ Version 66
 	DLSSG 0
 	Reflex OFF
 	FSRMode BALANCED
-	PrimaryScaling 0.750000
+	PrimaryScaling 1.000000
 	SecondaryScaling 1.000000
-	SharpenAmount 0.500000
+	SharpenAmount 1.000000
 	ReprojectionMode 0
 	WorldScalePercentVR 100
 	AntiAliasingVR TAA
@@ -28,16 +28,16 @@ Version 66
 	SecondaryScalingVR 1.000000
 	SharpenAmountVR 1.000000
 	VSync 1
-	HDR10 0
+	HDR10 1
 	Raytracing 0
-	PreferD3D12 1
+	PreferD3D12 0
 	IntelMessageBoxDisplayed 0
-	CurrentGPUDriverVersion 546.1.0
+	CurrentGPUDriverVersion 546.33.0
 	DoNotShowGpuDriverRequirementPopup 0
 }
 {Graphics
 	Version 1.1.0
-	Preset Custom
+	Preset High
 	{Texture
 		MaxAnisotropy 8
 		Quality 1
@@ -46,7 +46,7 @@ Version 66
 		SuperSampling 2
 	}
 	{Terrain
-		LoDFactor 2.000000
+		LoDFactor 1.000000
 	}
 	{OffscreenTerrainPreCaching
 		Enabled 1
@@ -57,12 +57,12 @@ Version 66
 	}
 	{Shadows
 		MaxSliceCount 4
-		Size 1024
+		Size 1536
 		DLightContributionCullingThresholdS0 0.100000
 		DLightContributionCullingThresholdS1 0.100000
 		DLightContributionCullingThresholdS2 0.100000
 		DLightContributionCullingThresholdS3 0.100000
-		OmniContributionCullingThreshold 0.030000
+		OmniContributionCullingThreshold 0.020000
 	}
 	{HeightFieldShadows
 		Enabled 1
@@ -70,7 +70,7 @@ Version 66
 	}
 	{SSRaytracedShadows
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{Water
 		FFTSize 512
@@ -81,33 +81,33 @@ Version 66
 	}
 	{VolumetricLights
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{ReflectionProbe
-		Size 128
+		Size 192
 	}
 	{SSR
 		Enabled 1
 		HalfRes 0
-		Quality 1
+		Quality 2
 	}
 	{WindShield
-		Quality 1
+		Quality 2
 	}
 	{SSAO
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{Bloom
 		Enabled 1
 	}
 	{DOF
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{MotionBlur
 		Enabled 1
-		Quality 1
+		Quality 2
 	}
 	{Buildings
 		Enabled 1
@@ -251,4 +251,4 @@ Version 66
 		Quality 1
 	}
 }
-InstalledPackagesPath "C:\Games\MSFS"
+InstalledPackagesPath "C:\Users\Dmytro\AppData\Roaming\Microsoft Flight Simulator\Packages"
