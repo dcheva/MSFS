@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>IFR</FlightplanType>
+      <CruisingAlt>10000</CruisingAlt>
+      <CruisingAltF>10000.00000000</CruisingAltF>
+      <CreationDate>2024-02-03T00:10:17+02:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>Black Square Bonanza A36 Tip-Tank.lnmperf</FilePath>
+      <Type>BE36</Type>
+      <Name>Black Square Bonanza A36 Tip-Tanks</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-0.516327" Lat="35.540459" Alt="343.00"/>
+      <Start>PARKING 41</Start>
+      <Type>Parking</Type>
+      <Heading>99.0604</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Tafaraoui</Name>
+        <Ident>DAOL</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-0.530594" Lat="35.542660" Alt="343.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Oran</Name>
+        <Ident>ORN</Ident>
+        <Region>DA</Region>
+        <Type>VOR</Type>
+        <Pos Lon="-0.601700" Lat="35.627529" Alt="1920.70"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo De Caravaca De La Cruz</Name>
+        <Ident>LECB</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-1.922729" Lat="38.048225" Alt="2638.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
