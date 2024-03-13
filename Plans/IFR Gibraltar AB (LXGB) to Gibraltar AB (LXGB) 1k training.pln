@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LXGB to LXGB</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>1000</CruisingAlt>
+        <DepartureID>LXGB</DepartureID>
+        <DepartureLLA>N36* 9' 10.46",W5* 20' 36.79",+000011.00</DepartureLLA>
+        <DestinationID>LXGB</DestinationID>
+        <DestinationLLA>N36* 9' 3.81",W5* 20' 59.91",+000011.00</DestinationLLA>
+        <Descr>LXGB, LXGB created by Little Navmap 3.0.5</Descr>
+        <DeparturePosition>PARKING 15</DeparturePosition>
+        <DepartureName>Gibraltar AB</DepartureName>
+        <DestinationName>Gibraltar AB</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LXGB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36* 9' 3.81",W5* 20' 59.91",+000011.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LXGB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="GB096">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N36* 9' 0.60",W5* 22' 43.35",+000583.35</WorldPosition>
+            <ICAO>
+                <ICAORegion>LX</ICAORegion>
+                <ICAOIdent>GB096</ICAOIdent>
+                <ICAOAirport>LXGB</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="YANKE">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N36* 9' 19.68",W5* 16' 52.28",+001000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LX</ICAORegion>
+                <ICAOIdent>YANKE</ICAOIdent>
+                <ICAOAirport>LXGB</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LXGB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36* 9' 3.81",W5* 20' 59.91",+000011.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LXGB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
