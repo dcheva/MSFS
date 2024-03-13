@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LERM to LECU</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5000</CruisingAlt>
+        <DepartureID>LERM</DepartureID>
+        <DepartureLLA>N40* 51' 55.70",W3* 14' 50.39",+003115.00</DepartureLLA>
+        <DestinationID>LECU</DestinationID>
+        <DestinationLLA>N40* 22' 14.00",W3* 47' 7.00",+002257.00</DestinationLLA>
+        <Descr>LERM, LECU created by Little Navmap 3.0.5</Descr>
+        <DepartureName>Robledillo De Mohernando</DepartureName>
+        <DestinationName>Cuatro Vientos</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LERM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40* 51' 55.70",W3* 14' 50.39",+003115.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LERM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LECU">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40* 22' 14.00",W3* 47' 7.00",+002257.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LECU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>IFR</FlightplanType>
+      <CruisingAlt>15000</CruisingAlt>
+      <CruisingAltF>15000.00000000</CruisingAltF>
+      <CreationDate>2024-03-13T15:03:47+02:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.5</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>DC3-Classic.lnmperf</FilePath>
+      <Type>DHC4</Type>
+      <Name>DeHavilland DHC-4 Caribou</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-176.645828" Lat="51.874355" Alt="17.00"/>
+      <Start>PARKING 36</Start>
+      <Type>Parking</Type>
+      <Heading>73.8837</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Adak</Name>
+        <Ident>PADK</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-176.645996" Lat="51.877995" Alt="17.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Mount Moffett</Name>
+        <Ident>ADK</Ident>
+        <Region>PA</Region>
+        <Type>NDB</Type>
+        <Pos Lon="-176.675995" Lat="51.871880" Alt="708.53"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>St Paul Island</Name>
+        <Ident>SPY</Ident>
+        <Region>PA</Region>
+        <Type>VOR</Type>
+        <Pos Lon="-170.233047" Lat="57.156803" Alt="14524.42"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>APOTE</Ident>
+        <Region>PA</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-169.807816" Lat="56.619999" Alt="2046.19"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>St George</Name>
+        <Ident>PAPB</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-169.664001" Lat="56.577400" Alt="125.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

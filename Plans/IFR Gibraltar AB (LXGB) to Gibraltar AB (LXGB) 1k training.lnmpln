@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>IFR</FlightplanType>
+      <CruisingAlt>1000</CruisingAlt>
+      <CruisingAltF>1000.00000000</CruisingAltF>
+      <CreationDate>2024-03-13T14:59:54+02:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.5</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>DC3-Classic.lnmperf</FilePath>
+      <Type>DHC4</Type>
+      <Name>DeHavilland DHC-4 Caribou</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-5.343552" Lat="36.152905" Alt="11.00"/>
+      <Start>PARKING 15</Start>
+      <Type>Parking</Type>
+      <Heading>316.399</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Gibraltar AB</Name>
+        <Ident>LXGB</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.349976" Lat="36.151058" Alt="11.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>GB096</Ident>
+        <Region>LX</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-5.378708" Lat="36.150166" Alt="584.77"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>YANKE</Ident>
+        <Region>LX</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-5.281189" Lat="36.155468" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Gibraltar AB</Name>
+        <Ident>LXGB</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.349976" Lat="36.151058" Alt="11.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
