@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2023-09-07T20:51:14-05:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.12</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Douglas DC-3</Name>
+      <AircraftType>DC3</AircraftType>
+      <Simulator>MSFS</Simulator>
+      <Description>Starting the Duckworks DC-3
+Per each engine unless otherwise directed:
+
+Fuel tank selector........to choice
+Battery Switch............OFF if using Battery Cart/GPU (ON)
+Battery switch ON if not.
+Fuel Booster Pump .... ON
+Throttle ....... crack 1” open
+Propeller ..........MAX RPM (full forward)
+Master ignition switch...ON
+Ignition (Magneto) ...OFF
+Mixture control.....AUTO RICH
+Engine primer...ON for 4 seconds then OFF
+Ignition (Magneto)...BOTH
+Engine Starter (Energise) ... ON
+WAIT 4-5 SECONDS (engine will go up in pitch and reach a high note)
+Right Engine Mesh ...........ON
+WAIT 3 SECONDS
+Engine primer... ON
+
+As the MESH SWITCH is thrown, the propeller will begin to turn - slowly at first and then gathering speed. You should count “15 blades” at least, before throwing the primer. This is equal to approximately 3 -4 seconds before final priming. Once the engine is running, return the
+
+Battery Cart/GPU  switch to OFF
+Battery........... ON
+Fuel Booster Pump ....OFF
+
+R-1830-90C ENGINES (WITH 2-STAGE BLOWER)
+
+     RPM       LOW BLOWER     MIX      HIGH BLOWER    MIX        MAX CYL   
+                           M.P.                               M.P.                             TEMP
+
+ min     max      min max                          min  max
+2450 - 2550     39”- 42”     Auto-Rich     34”- 36”     Auto-Rich     232 C
+2350 - 2450     36”- 39”     Auto-Rich     32”- 34”     Auto-Rich     232 C
+2250 - 2350     32”- 36”     Auto-Rich     30”- 32”     Auto-Rich     232 C
+2000 - 2250     28”- 32”     Auto-Lean    27”- 30”     Auto-Rich     232 C
+1700 - 2000     24”- 28”     Auto-Lean    24”- 27”     Auto-Rich     232 C</Description>
+      <FuelAsVolume>1</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>2500.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>100.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>2.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>804.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>78.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>120.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>125.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>115.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>700.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>90.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>165.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>85.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>145.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>500.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>
