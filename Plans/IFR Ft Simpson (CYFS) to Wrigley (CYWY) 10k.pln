@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYFS to CYWY</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>10000</CruisingAlt>
+        <DepartureID>CYFS</DepartureID>
+        <DepartureLLA>N61* 45' 36.56",W121* 14' 11.50",+000547.00</DepartureLLA>
+        <DestinationID>CYWY</DestinationID>
+        <DestinationLLA>N63* 12' 34.57",W123* 26' 12.31",+000484.00</DestinationLLA>
+        <Descr>CYFS, CYWY created by Little Navmap 3.0.5</Descr>
+        <DepartureName>Ft Simpson</DepartureName>
+        <DestinationName>Wrigley</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYFS">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N61* 45' 36.56",W121* 14' 11.50",+000547.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYFS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYWY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N63* 12' 34.57",W123* 26' 12.31",+000484.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYWY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>PADK to PAAK</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>10000</CruisingAlt>
+        <DepartureID>PADK</DepartureID>
+        <DepartureLLA>N51* 53' 0.90",W176* 38' 32.95",+000017.00</DepartureLLA>
+        <DestinationID>PAAK</DestinationID>
+        <DestinationLLA>N52* 13' 14.11",W174* 12' 22.29",+000044.00</DestinationLLA>
+        <Descr>PADK, PAAK created by Little Navmap 3.0.5</Descr>
+        <DepartureName>Adak</DepartureName>
+        <DestinationName>Atka</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="PADK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51* 53' 0.90",W176* 38' 32.95",+000017.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>PADK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SIYNY">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N52* 12' 3.53",W175* 20' 39.97",+009179.92</WorldPosition>
+            <ICAO>
+                <ICAORegion>PA</ICAORegion>
+                <ICAOIdent>SIYNY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WOKAT">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N52* 14' 40.16",W174* 18' 58.35",+001086.61</WorldPosition>
+            <ICAO>
+                <ICAORegion>PA</ICAORegion>
+                <ICAOIdent>WOKAT</ICAOIdent>
+                <ICAOAirport>PAAK</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ZIKEF">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N52* 14' 17.98",W174* 12' 49.81",+000279.21</WorldPosition>
+            <ICAO>
+                <ICAORegion>PA</ICAORegion>
+                <ICAOIdent>ZIKEF</ICAOIdent>
+                <ICAOAirport>PAAK</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="PAAK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52* 13' 14.11",W174* 12' 22.29",+000044.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>PAAK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

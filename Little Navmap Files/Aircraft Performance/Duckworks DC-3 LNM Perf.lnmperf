@@ -2,15 +2,15 @@
 <LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
   <AircraftPerf>
     <Header>
-      <CreationDate>2023-09-07T20:51:14-05:00</CreationDate>
+      <CreationDate>2024-03-14T13:36:02+02:00</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
-      <ProgramVersion>2.8.12</ProgramVersion>
+      <ProgramVersion>3.0.5</ProgramVersion>
       <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
     </Header>
     <Options>
-      <Name>Douglas DC-3</Name>
-      <AircraftType>DC3</AircraftType>
+      <Name>Douglas DC-3 Retrofit</Name>
+      <AircraftType>DC-3</AircraftType>
       <Simulator>MSFS</Simulator>
       <Description>Starting the Duckworks DC-3
 Per each engine unless otherwise directed:
@@ -58,27 +58,26 @@ R-1830-90C ENGINES (WITH 2-STAGE BLOWER)
       <MinRunwayLengthFt>2500.000</MinRunwayLengthFt>
       <ReserveFuelLbsGal>100.000</ReserveFuelLbsGal>
       <RunwayType>SOFT</RunwayType>
-      <TaxiFuelLbsGal>2.000</TaxiFuelLbsGal>
+      <TaxiFuelLbsGal>5.236</TaxiFuelLbsGal>
       <UsableFuelLbsGal>804.000</UsableFuelLbsGal>
       <Alternate>
         <FuelFlowLbsGalPerHour>78.000</FuelFlowLbsGalPerHour>
         <SpeedKtsTAS>120.000</SpeedKtsTAS>
       </Alternate>
       <Climb>
-        <FuelFlowLbsGalPerHour>125.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>115.000</SpeedKtsTAS>
-        <VertSpeedFtPerMin>700.000</VertSpeedFtPerMin>
+        <FuelFlowLbsGalPerHour>159.661</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>119.879</SpeedKtsTAS>
+        <VertSpeedFtPerMin>664.061</VertSpeedFtPerMin>
       </Climb>
       <Cruise>
-        <FuelFlowLbsGalPerHour>90.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>165.000</SpeedKtsTAS>
+        <FuelFlowLbsGalPerHour>109.760</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>169.607</SpeedKtsTAS>
       </Cruise>
       <Descent>
-        <FuelFlowLbsGalPerHour>85.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>145.000</SpeedKtsTAS>
-        <VertSpeedFtPerMin>500.000</VertSpeedFtPerMin>
+        <FuelFlowLbsGalPerHour>88.509</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>156.765</SpeedKtsTAS>
+        <VertSpeedFtPerMin>477.278</VertSpeedFtPerMin>
       </Descent>
     </Perf>
   </AircraftPerf>
 </LittleNavmap>
-

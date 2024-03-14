@@ -5,7 +5,7 @@
       <FlightplanType>IFR</FlightplanType>
       <CruisingAlt>10000</CruisingAlt>
       <CruisingAltF>10000.00000000</CruisingAltF>
-      <CreationDate>2024-03-14T11:32:33+02:00</CreationDate>
+      <CreationDate>2024-03-14T11:35:43+02:00</CreationDate>
       <FileVersion>1.2</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>3.0.5</ProgramVersion>
@@ -24,6 +24,24 @@
         <Ident>PADK</Ident>
         <Type>AIRPORT</Type>
         <Pos Lon="-176.642487" Lat="51.883583" Alt="17.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>SIYNY</Ident>
+        <Region>PA</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-175.344437" Lat="52.200981" Alt="9179.92"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WOKAT</Ident>
+        <Region>PA</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-174.316208" Lat="52.244488" Alt="1086.61"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ZIKEF</Ident>
+        <Region>PA</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-174.213837" Lat="52.238327" Alt="279.21"/>
       </Waypoint>
       <Waypoint>
         <Name>Atka</Name>
