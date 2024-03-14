@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>IFR</FlightplanType>
+      <CruisingAlt>10000</CruisingAlt>
+      <CruisingAltF>10000.00000000</CruisingAltF>
+      <CreationDate>2024-03-14T11:32:33+02:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.5</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>Duckworks DC-3 LNM Perf.lnmperf</FilePath>
+      <Type>DC3</Type>
+      <Name>Douglas DC-3</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Adak</Name>
+        <Ident>PADK</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-176.642487" Lat="51.883583" Alt="17.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Atka</Name>
+        <Ident>PAAK</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-174.206192" Lat="52.220585" Alt="44.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
