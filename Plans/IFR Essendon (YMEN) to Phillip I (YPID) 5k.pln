@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>YMEN to YPID</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5000</CruisingAlt>
+        <DepartureID>YMEN</DepartureID>
+        <DepartureLLA>S37* 43' 41.01",E144* 54' 7.01",+000250.00</DepartureLLA>
+        <DestinationID>YPID</DestinationID>
+        <DestinationLLA>S38* 31' 28.66",E145* 19' 30.92",+000038.00</DestinationLLA>
+        <Descr>YMEN, YPID created by Little Navmap 3.0.5</Descr>
+        <DepartureName>Essendon</DepartureName>
+        <DestinationName>Phillip I</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="YMEN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S37* 43' 41.01",E144* 54' 7.01",+000250.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>YMEN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="YPID">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S38* 31' 28.66",E145* 19' 30.92",+000038.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>YPID</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

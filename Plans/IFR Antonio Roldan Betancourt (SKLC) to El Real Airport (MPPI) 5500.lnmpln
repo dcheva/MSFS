@@ -3,9 +3,9 @@
   <Flightplan>
     <Header>
       <FlightplanType>IFR</FlightplanType>
-      <CruisingAlt>5000</CruisingAlt>
-      <CruisingAltF>5000.00000000</CruisingAltF>
-      <CreationDate>2024-03-15T16:16:25+02:00</CreationDate>
+      <CruisingAlt>5500</CruisingAlt>
+      <CruisingAltF>5500.00000000</CruisingAltF>
+      <CreationDate>2024-03-15T17:25:26+02:00</CreationDate>
       <FileVersion>1.2</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>3.0.5</ProgramVersion>
@@ -18,18 +18,33 @@
       <Type>DR40</Type>
       <Name>Robin DR400-180 Régent Mod</Name>
     </AircraftPerformance>
+    <Procedures>
+      <Approach>
+        <Name>MPPI11</Name>
+        <Runway>11</Runway>
+        <Type>CUSTOM</Type>
+        <CustomDistance>3.00</CustomDistance>
+        <CustomAltitude>1000.00</CustomAltitude>
+        <CustomOffsetAngle>0.00</CustomOffsetAngle>
+      </Approach>
+    </Procedures>
     <Waypoints>
       <Waypoint>
-        <Name>Essendon</Name>
-        <Ident>YMEN</Ident>
+        <Name>Antonio Roldan Betancourt</Name>
+        <Ident>SKLC</Ident>
         <Type>AIRPORT</Type>
-        <Pos Lon="144.901947" Lat="-37.728058" Alt="250.00"/>
+        <Pos Lon="-76.716446" Lat="7.811752" Alt="46.00"/>
       </Waypoint>
       <Waypoint>
-        <Name>Phillip I</Name>
-        <Ident>YPID</Ident>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-77.234634" Lat="7.965397" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>El Real Airport</Name>
+        <Ident>MPPI</Ident>
         <Type>AIRPORT</Type>
-        <Pos Lon="145.325256" Lat="-38.524628" Alt="38.00"/>
+        <Pos Lon="-77.725700" Lat="8.107254" Alt="29.00"/>
       </Waypoint>
     </Waypoints>
   </Flightplan>

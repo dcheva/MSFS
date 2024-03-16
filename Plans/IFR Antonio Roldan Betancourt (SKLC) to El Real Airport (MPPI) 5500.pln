@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SKLC to MPPI</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>5500</CruisingAlt>
+        <DepartureID>SKLC</DepartureID>
+        <DepartureLLA>N7* 48' 42.31",W76* 42' 59.21",+000046.00</DepartureLLA>
+        <DestinationID>MPPI</DestinationID>
+        <DestinationLLA>N8* 6' 26.11",W77* 43' 32.52",+000029.00</DestinationLLA>
+        <Descr>SKLC, MPPI created by Little Navmap 3.0.5</Descr>
+        <DepartureName>Antonio Roldan Betancourt</DepartureName>
+        <DestinationName>El Real Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SKLC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N7* 48' 42.31",W76* 42' 59.21",+000046.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SKLC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N7* 57' 55.43",W77* 14' 4.68",+005500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>WP1</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW113">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N8* 7' 26.65",W77* 46' 33.93",+001030.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>RW113</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW11">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N8* 6' 29.16",W77* 43' 41.64",+000029.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>RW11</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="MPPI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N8* 6' 26.11",W77* 43' 32.52",+000029.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>MPPI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
