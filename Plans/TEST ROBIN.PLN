@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Porepunkah Airport to Mount Beauty Airport</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>2100.000</CruisingAlt>
+        <DepartureID>YPOK</DepartureID>
+        <DepartureLLA>S36° 43' 4.00",E146° 53' 24.00",+000935.00</DepartureLLA>
+        <DestinationID>YMBT</DestinationID>
+        <DestinationLLA>S36° 44' 0.00",E147° 10' 0.00",+001100.00</DestinationLLA>
+        <Descr>Porepunkah Airport to Mount Beauty Airport</Descr>
+        <DeparturePosition>36</DeparturePosition>
+        <DepartureName>Porepunkah Airport</DepartureName>
+        <DestinationName>Mount Beauty Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="YPOK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S36° 43' 4.00",E146° 53' 24.00",+000935.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>YPOK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECLIMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S36° 40' 21.64",E146° 54' 10.82",+001548.16</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S36° 41' 58.17",E147° 1' 9.01",+002100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S36° 42' 34.13",E147° 3' 45.34",+002100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEAPPROACH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S36° 41' 0.63",E147° 8' 13.44",+001750.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="YMBT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S36° 44' 0.00",E147° 10' 0.00",+001100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>YMBT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

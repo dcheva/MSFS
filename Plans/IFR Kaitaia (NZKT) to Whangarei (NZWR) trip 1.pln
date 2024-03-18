@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>NZKT to NZWR</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>2500</CruisingAlt>
+        <DepartureID>NZKT</DepartureID>
+        <DepartureLLA>S35* 4' 12.00",E173* 17' 7.00",+000253.00</DepartureLLA>
+        <DestinationID>NZWR</DestinationID>
+        <DestinationLLA>S35* 46' 6.00",E174* 21' 53.96",+000131.00</DestinationLLA>
+        <Descr>NZKT, NZWR created by Little Navmap 3.0.5</Descr>
+        <DepartureName>Kaitaia</DepartureName>
+        <DestinationName>Whangarei</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="NZKT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S35* 4' 12.00",E173* 17' 7.00",+000253.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZKT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZWR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S35* 46' 6.00",E174* 21' 53.96",+000131.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZWR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
