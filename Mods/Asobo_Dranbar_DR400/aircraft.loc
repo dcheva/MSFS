@@ -1,0 +1,149 @@
+{
+  "LocalisationFile": {
+    "Version": 2,
+    "UUID": "b965e572-9caf-4e0c-b89b-11018d9cef3f",
+    "Languages": [
+      "en-US",
+      "fr-FR",
+      "es-ES",
+      "de-DE",
+      "it-IT",
+      "pl-PL",
+      "pt-BR",
+      "ru-RU"
+    ],
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": {
+        "UUID": "c7c4859a-ad29-4d6d-bff1-586d56051dbf",
+        "Comment": "Minor edit, 400-100 is now 400/100",
+        "LastModifiedBy": "ajimeno",
+        "LastModifiedDate": "2020-04-15 18:16:16",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "The DR400-140B Dauphin is the product of Robin Aircraft, a French aviation company that's changed names and ownership multiple times since its origin in 1957 -- yet throughout the years, one thing has always remained: a dedication to handcrafted quality.</br></br>Introduced in 1972 and still in production, the DR400 is a single-engine four-seat sport monoplane, widely recognized as one of the most famous General Aviation planes across Europe.</br></br>Part of the model's claim to fame is its predominantly wooden construction. With a fuselage skinned in high-grade grains, and wood-ribbed wing structures draped in aircraft fabric, the DR400 boasts remarkable stability, quiet operation and low drag compared to metal planes riddled with rivets and joints. However, it’s the characteristic 'cranked wing' configuration that makes the line visually stunning, and distinctly unforgettable.</br></br>Rounding out the package, the DR400 is easy to fly at any speed, with excellent visibility through its forward-sliding glass canopy; no wonder it's a favorite at flight schools, and a staple of French Air Force training and patrol fleets.",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "Le DR400-140B Dauphin est un produit de Robin Aircraft, une entreprise d'aviation française qui a changé maintes fois de nom et de propriétaire depuis sa fondation en 1957 -- bien qu'au fil des ans, une chose a perduré : le dévouement pour une qualité artisanale.</br></br>Lancé en 1972 et encore produit à l'heure actuelle, le DR400 est un monoplan sportif monomoteur à quatre places, largement reconnu comme l'un des plus célèbres avions d'aviation générale en Europe.</br></br>Ce succès s'explique en partie par sa structure principalement en bois. Avec son fuselage en essences de qualité, et ses ailes nervurées en bois et entoilées, le DR400 jouit d'une remarquable stabilité, d'un fonctionnement silencieux et d'une longue traînée comparativement aux avions en métal truffés de rivets et de joints. Néanmoins, c'est la configuration « aile cambrée » qui lui donne une place à part et rend sa ligne incroyable et inoubliable.</br></br>Cerise sur le gâteau, le DR400 est facile à piloter quelle que soit la vitesse, conservant une excellente visibilité à travers sa verrière coulissant vers l'avant ; rien d'étonnant donc qu'il soit plébiscité par les écoles de pilotage, et un incontournable des formateurs et des patrouilles de l'Armée de l'Air française."
+          },
+          "es-ES": {
+            "Text": "El DR400-140B Dauphin es un producto de Robin Aircraft, una compañía de aviación francesa que ha cambiado de nombre y de propietario en múltiples ocasiones desde su origen en 1957. Sin embargo, a lo largo de los años, hay algo que siempre ha permanecido: la dedicación a la calidad artesanal.</br></br>Presentado en 1972 y todavía en producción, el DR400 es un monoplano deportivo de cuatro plazas con un solo motor, reconocido ampliamente como una de las aeronaves de aviación general más famosas de Europa.</br></br>Parte de la fama del modelo viene de su construcción mayoritaria de madera. Con un fuselaje revestido de granos de alta calidad y estructuras de ala con un armazón de madera cubierto de tela barnizada, el DR400 presume de una estabilidad notable, un funcionamiento silencioso y una baja resistencia en comparación con los aviones metálicos llenos de remaches y juntas. Sin embargo, es su configuración característica de ala acanalada la que hace que la línea sea visualmente impresionante y claramente inolvidable.</br></br>Para completar el paquete, el DR400 es fácil de pilotar a cualquier velocidad, con una excelente visibilidad a través de su cúpula deslizante de cristal. No es de extrañar que sea uno de los favoritos en las escuelas de vuelo y un básico de las flotas de entrenamiento y patrulla de las Fuerzas Aéreas Francesas."
+          },
+          "de-DE": {
+            "Text": "Die DR400-140B Dauphin ist ein Produkt des französischen Luftfahrtunternehmens Robin Aircraft, das seit seiner Entstehung 1957 mehrfach seinen Namen und Besitzer änderte. Allerdings gab es im Laufe dieser Zeit stets eine Gemeinsamkeit: eine Hingabe zur handwerklichen Qualität.</br></br>1972 der Öffentlichkeit vorgestellt und noch immer in Produktion, handelt es sich bei der DR400 um einen leichten Eindecker mit einem Motor und vier Sitzen, der weitläufig als eines der berühmtesten Flugzeuge der allgemeine Luftfahrt in ganz Europa angesehen wird.</br></br>Ein Teil dieses Ruhmes beruht auf der vorwiegenden Holzkonstruktion der Maschine. Mit einem von hochwertigen Holzfasern umgebenen Rumpf und mit Luftfahrtgewebe überzogenen Holzrippenflügelstrukturen besitzt die DR400 eine bemerkenswerte Stabilität, profitiert von einem stillen Betrieb und weist (im Vergleich zu Metallflugzeugen voller Schrauben und Gelenke) einen relativ niedrigen Luftwiderstand auf. Allerdings ist es ihrer Krummflügel-Konfiguration zu verdanken, dass die DR400 so schnittig anmutet und dauerhaft in Erinnerung bleibt.</br></br>Dieses Paket wird ferner dadurch abgerundet, dass die DR400 während jeder Geschwindigkeit leicht zu fliegen ist und durch ihre nach vorne gleitende Glashaube eine exzellente Sicht ermöglicht. Daher ist es kein Wunder, dass dieses Flugzeug einer der absoluten Favoriten von Flugschulen und eine tragende Säule der Trainings- und Patrouillenflotten der französischen Luftwaffe ist."
+          },
+          "it-IT": {
+            "Text": "Il DR400-140B Dauphin è uno dei prodotti di Robin Aircraft, una compagnia aerea francese che, pur avendo cambiato nome e proprietà diverse volte dalla sua fondazione nel 1957, è rimasta fedele nel corso degli anni alla propria dedizione per la qualità artigianale.</br></br>Introdotto nel 1972 e ancora in produzione, il DR400 è un monoplano monomotore sportivo a quattro posti, ampiamente riconosciuto come uno dei più famosi aeromobili per l'aviazione generale in Europa.</br></br>Uno dei meriti alla base della fama di questo modello è la sua struttura prevalentemente in legno. Con una fusoliera rivestita di materiale ad alta qualità e strutture alari con nervature in legno drappeggiate in tessuto per l'industria aeronautica, il DR400 vanta una notevole stabilità, un funzionamento silenzioso e una resistenza ridotta rispetto agli aerei metallici pieni di rivetti e giunture. Tuttavia, è la caratteristica configurazione dell'ala \"a gomito\" a rendere la linea visivamente sbalorditiva e memorabile.</br></br>Il DR400 è inoltre semplice da pilotare a qualsiasi velocità e offre un'eccellente visibilità grazie al tettuccio di vetro scorrevole; non meraviglia il fatto che sia uno degli aeromobili prediletti delle scuole di volo e un punto fermo delle flotte di addestramento e pattugliamento dell'aeronautica francese."
+          },
+          "pl-PL": {
+            "Text": "Samolot DR400-140B Dauphin to produkt firmy Robin Aircraft, francuskiego przedsiębiorstwa lotniczego, które na przestrzeni lat od swojego powstania w roku 1957 wielokrotnie zmieniało nazwę i właścicieli. Jedno pozostało jednak niezmienne: przywiązanie do jakości, którą niesie ze sobą ręczna produkcja.</br></br>Wprowadzony na rynek w roku 1972 i produkowany po dziś dzień model DR400 jest czteroosobowym sportowym jednopłatem z pojedynczym silnikiem, powszechnie uważanym za najsłynniejszy europejski samolot wykorzystywany w lotnictwie ogólnym.</br></br>Jednym z głównych powodów jego renomy jest niewątpliwie jego drewniana konstrukcja. Kadłub wykonany z wysokojakościowego drewna oraz żebrowane drewniane skrzydła owinięte płótnem lotniczym sprawiają, że w porównaniu z samolotami metalowymi naszpikowanymi różnego rodzaju nitami i łącznikami model DR400 odznacza się wyjątkową stabilnością, cichą pracą oraz odpornością na opór powietrza. Jednak tym, co tak naprawdę czyni tę maszynę niezapomnianą, jest charakterystyczny „łamany” układ skrzydeł, który oczarowuje swoim wyglądem.</br></br>Podsumowując, model DR400 charakteryzuje się prostotą obsługi przy każdej prędkości i wyśmienitą widzialnością zapewnianą przez przesuwaną do przodu osłonę kabiny. Nic więc dziwnego, że jest to samolot, który często zobaczyć można w ośrodkach szkolenia lotniczego oraz bazach szkoleniowych i oddziałach patrolowych francuskich sił powietrznych."
+          },
+          "pt-BR": {
+            "Text": "O DR400-140B Dauphin é um produto da Robin Aircraft, uma empresa de aviação francesa que mudou de nome e de propriedade várias vezes desde sua origem, em 1957 – ainda que, ao longo dos anos, uma coisa sempre permaneceu: a dedicação à qualidade de produção.</br></br>Introduzido em 1972 e ainda em produção, o DR400 é um monoplano esportivo de motor único e quatro assentos, amplamente reconhecido como um dos aviões mais famosos de Aviação Geral da Europa.</br></br>Parte da fama do modelo é sua construção predominantemente em madeira. Com uma fuselagem com grãos de grau alto e estruturas da asa com nervuras de madeira cobertas no tecido da aeronave, o DR400 exibe estabilidade impressionante, operação silenciosa e arrasto baixo em comparação aos aviões de metal repletos de rebites e juntas. Entretanto, é a sua configuração de \"asa curvada\" característica que faz da linha ser visualmente deslumbrante e inesquecível.</br></br>Completando o pacote, o DR400 é fácil de voar a qualquer velocidade, com visibilidade excelente por seu canopi de vidro deslizante; não é de se admirar que ele é um favorito das escolas de voo, e um item essencial nas frotas de treinamento e patrulha da Força Aérea Francesa."
+          },
+          "ru-RU": {
+            "Text": "Самолёт DR400-140B Dauphin производит французская компания Robin Aircraft, которая с момента своего основания в 1957 году успела несколько раз сменить название, но сохранила преданность ручному производству и качеству.</br></br>Модель DR400 была представлена в 1972 году, но производится до сих пор. Это однодвигательный четырёхместный спортивный моноплан, который сейчас является одним из самых популярных и узнаваемых частных самолётов в Европе.</br></br>Свою популярность он завоевал в том числе благодаря обилию деревянных элементов в конструкции: например, фюзеляж самолёта изготовлен из древесины. Из неё же изготовлен и обтянутый тканью каркас крыла. Благодаря этому DR400 выделяется на фоне цельнометаллических самолётов невероятной устойчивостью, а также низким лобовым сопротивлением. Кроме того, он не такой шумный из-за отсутствия заклёпок и металлических соединений. А схема крыла «обратная чайка» с эффектным изломом делает силуэт самолёта по-настоящему незабываемым.</br></br>В полёте DR400 удивляет своей простотой и управляемостью, неплохой скоростью и отличным обзором с пилотского кресла. Неудивительно, что его так любят в лётных школах, а в ВВС Франции называют не иначе как «учебная парта»."
+          }
+        }
+      },
+      "AIRCRAFT.UI_MANUFACTURER": {
+        "UUID": "cb7b962a-fd78-43b8-9320-a22599976d20",
+        "LastModifiedBy": "ajimeno",
+        "LastModifiedDate": "2020-04-08 23:48:09",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "Robin",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "Robin"
+          },
+          "es-ES": {
+            "Text": "Robin"
+          },
+          "de-DE": {
+            "Text": "Robin"
+          },
+          "it-IT": {
+            "Text": "Robin"
+          },
+          "pl-PL": {
+            "Text": "Robin"
+          },
+          "pt-BR": {
+            "Text": "Robin"
+          },
+          "ru-RU": {
+            "Text": "Robin"
+          }
+        }
+      },
+      "AIRCRAFT.UI_MODEL": {
+        "UUID": "f3401b58-6bcb-4f12-b507-7d53cab3db7c",
+        "LastModifiedBy": "ajimeno",
+        "LastModifiedDate": "2020-04-08 23:48:09",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "DR400-140B Dauphin",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "DR400-140B Dauphin"
+          },
+          "es-ES": {
+            "Text": "DR400-140B Dauphin"
+          },
+          "de-DE": {
+            "Text": "DR400-140B Dauphin"
+          },
+          "it-IT": {
+            "Text": "DR400-140B Dauphin"
+          },
+          "pl-PL": {
+            "Text": "DR400-140B Dauphin"
+          },
+          "pt-BR": {
+            "Text": "DR400-140B Dauphin"
+          },
+          "ru-RU": {
+            "Text": "DR400-140B Dauphin"
+          }
+        }
+      },
+      "AIRCRAFT.UI_VARIATION": {
+        "UUID": "85fb3de3-0881-4d18-9522-7234fe5b9822",
+        "LastModifiedBy": "ajimeno",
+        "LastModifiedDate": "2020-03-08 15:45:14",
+        "Languages": {
+          "en-US": {
+            "Text": "LYCOMING"
+          },
+          "fr-FR": {
+            "Text": "LYCOMING"
+          },
+          "es-ES": {
+            "Text": "LYCOMING"
+          },
+          "de-DE": {
+            "Text": "LYCOMING"
+          },
+          "it-IT": {
+            "Text": "LYCOMING"
+          },
+          "pl-PL": {
+            "Text": "LYCOMING"
+          },
+          "pt-BR": {
+            "Text": "LYCOMING"
+          },
+          "ru-RU": {
+            "Text": "LYCOMING"
+          }
+        }
+      }
+    }
+  }
+}
