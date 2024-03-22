@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Z08T to ZSPD</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>10000</CruisingAlt>
+        <DepartureID>Z08T</DepartureID>
+        <DepartureLLA>N31* 59' 50.92",E118* 48' 52.69",+000004.00</DepartureLLA>
+        <DestinationID>ZSPD</DestinationID>
+        <DestinationLLA>N31* 8' 42.00",E121* 47' 36.01",+000011.00</DestinationLLA>
+        <Descr>Z08T, ZSPD created by Little Navmap 3.0.5</Descr>
+        <DepartureName>Dajiaochang</DepartureName>
+        <DestinationName>Pudong</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="Z08T">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N31* 59' 50.92",E118* 48' 52.69",+000004.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>Z08T</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ZSPD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N31* 8' 42.00",E121* 47' 36.01",+000011.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ZSPD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

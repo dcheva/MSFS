@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>IFR</FlightplanType>
+      <CruisingAlt>10000</CruisingAlt>
+      <CruisingAltF>10000.00000000</CruisingAltF>
+      <CreationDate>2024-03-22T00:40:48+02:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.5</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>Milviz Cessna 310R.lnmperf</FilePath>
+      <Type>C310</Type>
+      <Name>Milviz Cessna 310R</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Dajiaochang</Name>
+        <Ident>Z08T</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="118.814636" Lat="31.997478" Alt="4.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Pudong</Name>
+        <Ident>ZSPD</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="121.793335" Lat="31.145000" Alt="11.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
